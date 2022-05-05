@@ -9,7 +9,7 @@
 body {
     font-family: Raleway, sans-serif;
     font-weight: 800;
-    color: #775040;
+    color: #100c01;
 }
 
 /* headings and logos */
@@ -48,11 +48,11 @@ h1, h2 {
  }
 
  #menu a:hover {
-     border-bottom: 2px solid #775040;
+     border-bottom: 2px solid #100c01;
  }
 
  .navbar {
-     border-bottom: 2px solid #775040;
+     border-bottom: 2px solid #100c01;
  }
 
  /* Main Image */
