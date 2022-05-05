@@ -54,3 +54,13 @@ h1, h2 {
  .navbar {
      border-bottom: 2px solid #775040;
  }
+
+ /* Main Image */
+
+ #main-image {
+     height: 600px;
+     width: 100%;
+     background: url(../images/Cappadocia\,\ Turkey\ main\ image.jpg) no-repeat;
+     background-size: cover;
+     
+ }
