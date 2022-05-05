@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -7,6 +7,20 @@
 }
 
 body {
-    font-family: Caveat, sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
+    color: #775040;
+}
+
+/* headings and logos */
+
+h1, h2 {
+    font-family: Caveat, sans-serif;
+    letter-spacing: 6px;
+    color: #4D352B;
+}
+
+#title {
+    float: left;
+    font-size: 300%;
 }
