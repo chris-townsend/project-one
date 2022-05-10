@@ -75,7 +75,6 @@ h1, h2 {
      width: 33%;
      float: left;
      padding-top: 30px;
-     background-color: blue;
  }
 
 #right-section {
@@ -89,4 +88,12 @@ h1, h2 {
      width: 33%;
      margin: 0 auto;
      background-color: red;
+ }
+
+ .choose-us-left {
+     width: 60%;
+     float: right;
+     line-height: 22px;
+     clear: both;
+     margin-bottom: 65px;
  }
