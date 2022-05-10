@@ -125,13 +125,19 @@ h1, h2 {
 }
 
 #circle-border-bg-one {
-    background: url(../images/Iceland\,\ Idyllic\ Icelandic\ lake\ home\ page\ small.jpg) no-repeat center center;
+    background: url(../images/lighthouse\ homepage\ pic\ 3.jpg) no-repeat center;
     height: 100%;
     border-radius: 50%;
 }
 
 #circle-border-bg-two {
-    background: url(../images/Tree\ landscape\ shot.jpg) no-repeat center center;
+    background: url(../images/Trees\ homepage\ pic\ 2.jpg) no-repeat center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-border-bg-three {
+    background: url(../images/fern\ picture\ hompage\ pic\ 3.jpg) no-repeat center;
     height: 100%;
     border-radius: 50%;
 }
