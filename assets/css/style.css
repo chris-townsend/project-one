@@ -64,3 +64,29 @@ h1, h2 {
      background-size: cover;
      
  }
+
+ /* Why Choose Us Section */
+
+ #choose-us {
+     height: 600px;
+ }
+
+ #left-section {
+     width: 33%;
+     float: left;
+     padding-top: 30px;
+     background-color: blue;
+ }
+
+#right-section {
+     width: 33%;
+     float: right;
+     padding-top: 30px;
+     background-color: yellow;
+ } 
+ 
+ #center-section {
+     width: 33%;
+     margin: 0 auto;
+     background-color: red;
+ }
