@@ -81,7 +81,6 @@ h1, h2 {
      width: 33%;
      float: right;
      padding-top: 30px;
-     background-color: yellow;
  } 
  
  #center-section {
@@ -105,3 +104,8 @@ h1, h2 {
      clear: both;
      margin-bottom: 65px;
  }
+
+ .choose-us-right, h2, p {
+     text-align: right;
+}
+
