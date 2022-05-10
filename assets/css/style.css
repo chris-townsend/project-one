@@ -97,3 +97,11 @@ h1, h2 {
      clear: both;
      margin-bottom: 65px;
  }
+
+ .choose-us-right {
+     width: 60%;
+     float: left;
+     line-height: 22px;
+     clear: both;
+     margin-bottom: 65px;
+ }
