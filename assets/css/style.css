@@ -115,8 +115,8 @@ h1, h2 {
 }
 
 #circle-border {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     padding: 15px;
     border-style: solid;
     border-color: #ccc;
@@ -127,4 +127,11 @@ h1, h2 {
 #circle-border-bg-one {
     background: url(../images/Iceland\,\ Idyllic\ Icelandic\ lake\ home\ page\ small.jpg) no-repeat center center;
     height: 100%;
+    border-radius: 50%;
+}
+
+#circle-border-bg-two {
+    background: url(../images/Tree\ landscape\ shot.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
