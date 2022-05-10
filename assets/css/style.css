@@ -109,3 +109,8 @@ h1, h2 {
      text-align: right;
 }
 
+#headingtwo {
+    text-align: center;
+    font-size: 250%;
+    margin: 25px 0;
+}
