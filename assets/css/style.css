@@ -8,8 +8,9 @@
 
 body {
     font-family: Raleway, sans-serif;
+    background: #A78458;
+    background: linear-gradient(175deg, rgba(158,174,210,1) 0%, rgba(142,75,0,1) 96%, rgba(178,92,0,1) 100%);
     font-weight: 800;
-    color: #100c01;
 }
 
 /* headings and logos */
