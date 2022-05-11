@@ -104,7 +104,7 @@ h1, h2 {
      margin-bottom: 65px;
  }
 
- .choose-us-right, h2, p {
+ .choose-us-right, h2  {
      text-align: right;
 }
 
@@ -115,8 +115,8 @@ h1, h2 {
 }
 
 #circle-border {
-    width: 175px;
-    height: 175px;
+    width: 155px;
+    height: 155px;
     padding: 15px;
     border-style: solid;
     border-color: #ccc;
@@ -141,3 +141,26 @@ h1, h2 {
     height: 100%;
     border-radius: 50%;
 }
+
+/* Footer */
+
+footer {
+    height: 240px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons li {
+    list-style: none;
+    margin: 1%;
+    display: inline-block;
+    font-size: 20px;
+    padding: 2.5%;
+    color:#100c01;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: .5s;
+}
+
