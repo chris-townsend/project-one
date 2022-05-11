@@ -8,7 +8,7 @@
 
 body {
     font-family: Raleway, sans-serif;
-    background: #A78458;
+    background: #d7c6bc;
     background: linear-gradient(175deg, rgba(158,174,210,1) 0%, rgba(142,75,0,1) 96%, rgba(178,92,0,1) 100%);
     font-weight: 800;
 }
@@ -18,7 +18,7 @@ body {
 h1, h2 {
     font-family: Caveat, sans-serif;
     letter-spacing: 6px;
-    color: #4D352B;
+    color: #1f1b1a;
 }
 
 #title {
@@ -59,7 +59,7 @@ h1, h2 {
  /* Main Image */
 
  #main-image {
-     height: 600px;
+     height: 550px;
      width: 100%;
      background: url(../images/Cappadocia\,\ Turkey\ main\ image.jpg) no-repeat;
      background-size: cover;
@@ -120,7 +120,7 @@ h1, h2 {
     height: 155px;
     padding: 15px;
     border-style: solid;
-    border-color: #ccc;
+    border-color: #f5f5f5;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -155,13 +155,12 @@ footer {
 
 .social-icons li {
     list-style: none;
-    margin: 1%;
+    margin: 0.8%;
     display: inline-block;
     font-size: 20px;
     padding: 2.5%;
-    color:#100c01;
+    color:whitesmoke;
     border: 1px solid;
     border-radius: 50%;
-    transition: .5s;
 }
 
