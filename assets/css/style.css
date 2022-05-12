@@ -228,3 +228,13 @@ textarea:focus~label, textarea:valid~label {
     top: -35px;
     font-size: 15px;
 }
+
+.connect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connect .contact-box {
+    flex-basis: 46%;
+}
