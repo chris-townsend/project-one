@@ -36,32 +36,37 @@
     </header>
     <h1>Contact Us</h1>
 
-    <div>
+    <div class="container">
+        
     <form>
-        <label for ="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <div class="contact-box">
+        <label for ="name">Your Name</label>
+        <input type="text" id="name">
+        </div>
 
-        <label for ="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <div class="contact-box">
+        <label for ="number">Phone Number</label>
+        <input type="text" id="number" name="phone">
+        </div>
 
-        <label for ="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone">
-
+        <div class="contact-box">   
         <label for ="email">Email Address</label>
-        <input type="email" id="email" name=""email>
+        <input type="email" id="email">
+        </div>
 
-        <label for ="subject">Leave us a Message</label>
-        <textarea id ="subject" name="subject" placeholder="Write your messsage here. ."
+        <div class="contact-box">
+        <label for ="message">Leave us a Message</label>
+        <textarea id ="message"
         style="height:150px"></textarea>
+        </div>
 
-
-    
-    </form>
+        <button type="submit">Submit</button>
+   </form>
+    </div>
     </div>
 
 
-
-     <footer>
+<footer>
         <ul class ="social-icons">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
