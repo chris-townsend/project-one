@@ -191,7 +191,7 @@ position: relative;
 input, textarea{
     width: 100%;
     padding: 10px;
-    outline: 0;
+    outline-style: groove;
     border: 1px solid #d7c6bc;
     color:#d7c6bc;
     background: transparent;
@@ -206,5 +206,15 @@ top: 0;
 padding: 10px;
 color:#100c01;
 cursor: text;
+}
+
+button {
+    padding: 10px 0;
+    color:#d7c6bc;
+    outline-style: groove;
+    background: transparent;
+    border: 1px solid #d7c6bc;
+    width: 45%;
+    cursor: pointer;
 }
 
