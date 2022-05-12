@@ -9,7 +9,7 @@
     <meta name="keywords" content="through the lens, photography, Chris Townsends photography">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Through the Lens</title>
-
+    <script src="https://kit.fontawesome.com/9932e8fab5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -40,24 +40,24 @@
         
     <form>
         <div class="contact-box">
+        <input type="text" id="name" required>
         <label for ="name">Your Name</label>
-        <input type="text" id="name">
-        </div>
+    </div>
 
         <div class="contact-box">
+        <input type="text" id="number" required>
         <label for ="number">Phone Number</label>
-        <input type="text" id="number" name="phone">
-        </div>
-
-        <div class="contact-box">   
-        <label for ="email">Email Address</label>
-        <input type="email" id="email">
+        
         </div>
 
         <div class="contact-box">
+        <input type="email" id="email" required>   
+        <label for ="email">Email Address</label>
+        </div>
+
+        <div class="contact-box">
+        <textarea id ="message" style="height:150px" required></textarea>
         <label for ="message">Leave us a Message</label>
-        <textarea id ="message"
-        style="height:150px"></textarea>
         </div>
 
         <button type="submit">Submit</button>

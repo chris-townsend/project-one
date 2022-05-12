@@ -206,6 +206,7 @@ top: 0;
 padding: 10px;
 color:#100c01;
 cursor: text;
+transition: 0.3s;
 }
 
 button {
@@ -218,3 +219,12 @@ button {
     cursor: pointer;
 }
 
+input:focus~label, input:valid~label {
+    top: -35px;
+    font-size: 15px;
+}
+
+textarea:focus~label, textarea:valid~label {
+    top: -35px;
+    font-size: 15px;
+}
