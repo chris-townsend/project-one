@@ -185,6 +185,7 @@ form {
 
 .contact-box {
 margin-bottom: 30px;
+position: relative;
 }
 
 input, textarea{
@@ -197,4 +198,13 @@ input, textarea{
     font-size: 16px;
 }
 
+label {
+height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+padding: 10px;
+color:#100c01;
+cursor: text;
+}
 
