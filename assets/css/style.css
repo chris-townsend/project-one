@@ -193,6 +193,7 @@ input, textarea{
     padding: 10px;
     outline-style: groove;
     border: 1px solid #d7c6bc;
+    border-radius: 10px;
     color:#d7c6bc;
     background: transparent;
     font-size: 16px;
@@ -237,4 +238,10 @@ textarea:focus~label, textarea:valid~label {
 
 .connect .contact-box {
     flex-basis: 46%;
+}
+
+.contact-map {
+   width: 50%;
+   height: auto;
+   flex: 50%;
 }
