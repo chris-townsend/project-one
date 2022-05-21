@@ -23,6 +23,13 @@ h1, h2 {
     color: #1f1b1a;
 }
 
+h3 {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    height: 75px;
+}
+
 #title {
     float: left;
     font-size: 300%;
@@ -191,7 +198,7 @@ input, textarea{
     outline-style: groove;
     border: 1px solid #d7c6bc;
     border-radius: 10px;
-    color:#d7c6bc;
+    color:#100c01;
     background: transparent;
     font-size: 16px;
 }
@@ -274,10 +281,7 @@ th, td {
 .column {
     width: 150px;
     vertical-align: bottom;
-}
-h3 {
-    text-align: center;
-}
+
   
 /*Gallery Page */
 
