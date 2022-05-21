@@ -106,7 +106,7 @@ h1, h2 {
      margin-bottom: 65px;
  }
 
- .choose-us-right, h2  {
+ .choose-us-right  {
      text-align: right;
 }
 
@@ -248,9 +248,8 @@ th, td {
     width: 150px;
     vertical-align: bottom;
 }
-
-.map-border {
-
+h3 {
+    text-align: center;
 }
   
 /*Gallery Page */
