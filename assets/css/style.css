@@ -23,6 +23,7 @@ h1, h2 {
     color: #1f1b1a;
 }
 
+
 h3 {
     font-family: Raleway, sans-serif;
     font-weight: 900;
@@ -48,6 +49,11 @@ h4 {
 #title-2 {
 height: 75px;
 }
+
+#headingtwo {
+    height:100px;
+}
+
 /* Navigation links */
 
 #menu {
@@ -90,7 +96,7 @@ height: 75px;
  /* Why Choose Us Section */
 
  #choose-us {
-     height: 1250px;
+     height: 1550px;
  }
 
  #left-section {
