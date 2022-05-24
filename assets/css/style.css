@@ -456,6 +456,7 @@ th, td {
     text-align: center;
     width: auto;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
  .team .employee {
