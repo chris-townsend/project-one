@@ -442,12 +442,12 @@ th, td {
 /* About Page */
 
 .meet-the-team {
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 .meet-the-team h2 {
     font-size: 38px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -467,6 +467,19 @@ th, td {
     line-height: 22px;
     color: #1f1b1a;
     position: relative;
+}
+
+.team .employee h3 {
+    font-size: 22px;
+    color: #1f1b1a;
+    margin-top: 50px;
+}
+
+.team .employee p.employee-description {
+    color: grey;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 10px 0;
 }
 
 
