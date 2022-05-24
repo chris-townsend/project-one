@@ -439,6 +439,38 @@ th, td {
 }
 
 
+/* About Page */
+
+.meet-the-team {
+    margin-top: 8%;
+}
+
+.meet-the-team h2 {
+    font-size: 38px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.team .employee {
+    margin: 5px;
+    background:#d7c6bc;
+    margin-bottom: 50px;
+    width: 350px;
+    padding: 15px;
+    line-height: 22px;
+    color: #1f1b1a;
+    position: relative;
+}
+
+
+
 
 
    
