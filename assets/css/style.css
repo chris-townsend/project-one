@@ -458,7 +458,7 @@ th, td {
     justify-content: center;
 }
 
-.team .employee {
+ .team .employee {
     margin: 5px;
     background:#d7c6bc;
     margin-bottom: 50px;
@@ -469,7 +469,7 @@ th, td {
     position: relative;
 }
 
-.team .employee h3 {
+ .team .employee h3 {
     font-size: 22px;
     color: #1f1b1a;
     margin-top: 50px;
@@ -482,9 +482,21 @@ th, td {
     margin: 10px 0;
 }
 
+.team .employee .employee-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:#d7c6bc;
+}
 
-
-
-
-   
+.team .employee .employee-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 6px;
+}
 
