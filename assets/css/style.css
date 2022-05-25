@@ -440,6 +440,25 @@ th, td {
 
 /* About Page */
 
+@-webkit-keyframes move
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+@keyframes move
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+
 .about-section {
 background: url(../images/camera\ silloute.jpg) no-repeat right;
 background-color: #d7c6bc;
@@ -448,6 +467,7 @@ overflow: hidden;
 padding: 300px 0;
 box-sizing: border-box;
 }
+
 
 .inner-about {
     width: 55%;
@@ -461,6 +481,7 @@ box-sizing: border-box;
     margin-bottom: 40px;
     font-size: 32px;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .about-me {
