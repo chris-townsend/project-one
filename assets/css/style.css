@@ -113,16 +113,18 @@ height: 75px;
     
 
  .card {
- width: 200px;
- height: 250px;
+ width: 300px;
+ height: 300px;
  display: inline-block;
- border-radius: 10px;
+ border-radius: 40px;
  box-sizing: border-box;
- padding: 15px 20px;
+ padding: 25px 30px;
+ justify-content: center;
  cursor: pointer;
  background-position: center;
  background-size: cover;
  transition: 0.5s;
+ margin: 15px;
 }
 
 .card-1 {
