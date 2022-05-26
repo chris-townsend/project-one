@@ -127,16 +127,36 @@ height: 75px;
  margin: 15px;
 }
 
+
+
 .card-1 {
     background-image: url(../images/Lighthouse\ homepage\ pic\ 1.jpg);
+    justify-items: center;
+    font-size: 25px;
+    font-family: Raleway, sans-serif;
+    color:#100c01;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .card-2 {
     background-image: url(../images/Lighthouse\ homepage\ pic\ 1.jpg);
+    justify-items: center;
+    font-size: 25px;
+    font-family: Raleway, sans-serif;
+    color:#100c01;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .card-3 {
     background-image: url(../images/Lighthouse\ homepage\ pic\ 1.jpg);
+    justify-items: center;
+    font-size: 25px;
+    font-family: Raleway, sans-serif;
+    color:#100c01;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .card:hover {
@@ -422,25 +442,6 @@ th, td {
 
 
 /* About Page */
-
-@-webkit-keyframes move
-{
-    from {
-        left: 0;
-    }
-    to {
-        left: 50%;
-    }
-}
-@keyframes move
-{
-    from {
-        left: 0;
-    }
-    to {
-        left: 50%;
-    }
-}
 
 .about-section {
 background: url(../images/camera\ silloute.jpg) no-repeat right;
