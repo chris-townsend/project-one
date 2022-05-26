@@ -16,6 +16,18 @@ body {
 
 /* headings and logos */
 
+h1 {
+    animation: image-grow 1.5s;
+}
+@keyframes image-grow {
+    from {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 h1, h2 {
     font-family: Caveat, sans-serif;
     letter-spacing: 6px;
@@ -106,11 +118,20 @@ height: 75px;
 #quotebox {
     position: relative;
     width: 100%;
-    height: 20vh;
+    height: 18vh;
     margin-top: 100px;
     display: flex;
     justify-content: center;
     color: #100c01;
+    animation: image-grow 8s;
+}
+@keyframes image-grow {
+    from {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 .quote {
@@ -495,7 +516,6 @@ overflow: hidden;
 padding: 300px 0;
 box-sizing: border-box;
 }
-
 
 .inner-about {
     width: 55%;
