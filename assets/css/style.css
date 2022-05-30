@@ -66,6 +66,23 @@ h5 {
     margin: 15px;
 }
 
+#title-1 {
+    font-size: 160%;
+    float: left;
+    margin-top: 30px;
+    margin-left: -370px;
+    animation: image-grow 1.5s;
+}
+
+@keyframes image-grow {
+    from {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 #title-2 {
 margin: 10px;
 }
