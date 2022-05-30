@@ -713,6 +713,23 @@ box-sizing: border-box;
     height: 75px;
 }
 
+/* For Small screen sizes from 576px wide and down*/
+
+@media screen and (max-width: 576px) {
+
+#main-image {
+    width: 100%;
+    height: 400px;
+}
+
+#menu {
+    font-size: 85%;
+    margin: 10px;
+    
+}
+}
+
+
 
 
 
