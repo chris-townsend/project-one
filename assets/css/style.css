@@ -663,7 +663,7 @@ box-sizing: border-box;
     }
 }
 
-/* For Medium screen sizes from 950px wide and down*/
+/* For Medium screen sizes from 950px wide and up*/
 
 @media screen and (max-width: 950px) {
 
@@ -713,7 +713,7 @@ box-sizing: border-box;
     height: 75px;
 }
 
-/* For Small screen sizes from 576px wide and down*/
+/* For Small screen sizes from 576px wide and up*/
 
 @media screen and (max-width: 576px) {
 
@@ -725,8 +725,7 @@ box-sizing: border-box;
 #menu {
     font-size: 85%;
     margin: 10px;
-    
-}
+    }
 }
 
 
