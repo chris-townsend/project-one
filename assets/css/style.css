@@ -14,7 +14,7 @@ body {
     height: 100vh;
 }
 
-/* headings and logos */
+/* Headings and Logos */
 
 h1 {
     animation: image-grow 1.5s;
@@ -33,7 +33,6 @@ h1, h2 {
     letter-spacing: 6px;
     color: #1f1b1a;
 }
-
 
 h3 {
     font-family: Raleway, sans-serif;
@@ -127,6 +126,7 @@ margin: 10px;
     color: #100c01;
     animation: image-grow 8s;
 }
+
 @keyframes image-grow {
     from {
         transform: scale(0.2);
@@ -151,8 +151,7 @@ margin: 10px;
     font-family: Libe Franklin, sans-serif;
 }
 
-
- /* 3 catagories Gallery / About / Contact */
+/* 3 click sections to Gallery Peaks/Coast/Trees */
 
  .click-section{
     width: 100%;
@@ -162,8 +161,7 @@ margin: 10px;
     padding: 15px;
 }
     
-
- .card {
+.card {
  width: 300px;
  height: 300px;
  display: inline-block;
@@ -177,8 +175,6 @@ margin: 10px;
  margin: 15px;
  transition: 0.5s;
 }
-
-
 
 .card-1 {
     background-image: url(../images/Mountain\ home\ page\ -\ Nepal.jpg);
@@ -218,7 +214,6 @@ margin: 10px;
     text-shadow: 0 0 15px #100c01;
     font-size: 10px;
 }
-
 
 /* Footer */
 
@@ -306,8 +301,7 @@ transform: translate(0, -10px);
     background-color: #3AAF85;
 }
 
-
-/* contact form */ 
+/* Contact form */ 
 
 .container {
     width: 100%;
@@ -362,6 +356,7 @@ button {
     transition: all 0.5s;
     margin: 5px;
 }
+
 button span {
     cursor: pointer;
     display: inline-block;
@@ -377,6 +372,7 @@ button span:after {
     right: -20px;
     transition: 0.5s;
 }
+
 button:hover span {
     padding-right: 25px;
 }
@@ -385,8 +381,6 @@ button:hover span:after {
 opacity: 1;
 right: 0;
 }
-
-
 
 input:focus~label, input:valid~label {
     top: -35px;
@@ -418,9 +412,7 @@ th, td {
     vertical-align: bottom;
 }
 
-  
-/*Gallery Page */
-
+  /*Gallery Page */
 
 .gallery-contain {
     display: grid;
@@ -495,19 +487,6 @@ th, td {
 .h-6 {
     grid-row: span 6;
 }
-
-/*media query for gallery page for small screen devices */
-
-@media screen and (max-width:480px) {
-.gallery-contain{
-    grid-template-columns: repeat(2,1fr);
-}
-.w-1, .w-2, .w-3, .w-4, .w-5 {
-    grid-column: span 1;
-}
-}
-
-
 /* About Page */
 
 .about-section {
@@ -549,8 +528,6 @@ box-sizing: border-box;
     font-weight: 900;
     font-size: 22px;
 }
-
-
 
 .meet-the-team {
     margin-top: 6%;
@@ -641,7 +618,6 @@ box-sizing: border-box;
 
     .about-section {
             margin: 15px;
-
 }
 
 .about-me {
@@ -728,6 +704,16 @@ box-sizing: border-box;
     }
 }
 
+/*media query for gallery page for small screen devices */
+
+@media screen and (max-width:480px) {
+    .gallery-contain{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .w-1, .w-2, .w-3, .w-4, .w-5 {
+        grid-column: span 1;
+    }
+    }
 
 
 
