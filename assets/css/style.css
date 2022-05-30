@@ -68,7 +68,6 @@ h5 {
 }
 
 #title-2 {
-height: 75px;
 margin: 10px;
 }
 
@@ -615,7 +614,7 @@ box-sizing: border-box;
 
 /* Media Querys */
 
-/* For large to medium screen sizes from 1200px wide and up*/
+/* For large to medium screen sizes from 1200px wide and down*/
 
 @media screen and (max-width: 1200px) {
 
@@ -644,8 +643,7 @@ box-sizing: border-box;
             margin: 15px;
 }
 
-
-    /*contact page responsiveness */
+ /*contact page responsiveness */
 
     h3 {
         height: 30px;
@@ -659,5 +657,21 @@ box-sizing: border-box;
         height:30px;
     }
 }
+
+/* For Medium screen sizes from 950px wide and down*/
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin: 15px;
+        line-height: 10px;
+
+}
+}
+
+
+
 
 
