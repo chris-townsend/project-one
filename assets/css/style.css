@@ -235,7 +235,7 @@ footer .footer-bottom {
     bottom: 0px;
     left: 10px;
     padding-top: 80px;
-    letter-spacing: 1px;;
+    letter-spacing: 1px;
 }
 
 .social-icons {
@@ -682,6 +682,13 @@ box-sizing: border-box;
     width: auto;
     justify-content: center;
     flex-wrap: wrap;
+ }
+
+ .footer-bottom {
+    color:#1f1b1a;
+    font-size: 12px;
+    margin-bottom: -600px;
+
  }
 }
 
