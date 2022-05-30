@@ -666,10 +666,26 @@ box-sizing: border-box;
         clear: left;
         float: left;
         margin: 15px;
-        line-height: 10px;
+}
 
+    #quotebox {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+ .click-section {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
 }
-}
+
+
 
 
 
