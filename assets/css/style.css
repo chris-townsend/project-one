@@ -92,6 +92,18 @@ margin: 10px;
     height:100px;
     }
 
+ #about-us {
+     animation: image-grow 6s ;
+ }   
+ @keyframes image-grow {
+    from {
+        transform: scale(0.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 #meet-team {
     font-size: 300%;
     animation: image-grow 8s;
