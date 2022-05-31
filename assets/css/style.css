@@ -90,6 +90,19 @@ margin: 10px;
 
 #headingtwo {
     height:100px;
+    }
+
+#meet-team {
+    font-size: 300%;
+    animation: image-grow 8s;
+}
+@keyframes image-grow {
+    from {
+        transform: scale(0.1);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 /* Navigation links */
