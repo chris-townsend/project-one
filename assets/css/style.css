@@ -547,6 +547,11 @@ box-sizing: border-box;
     font-size: 22px;
 }
 
+a, i {
+color: #100c01;
+
+}
+
 .meet-the-team {
     margin-top: 6%;
     margin-bottom: 60px;
@@ -657,7 +662,6 @@ box-sizing: border-box;
             margin-top: -260px;
         }
 
-            
 /*contact page responsiveness */
 
     h3 {
