@@ -632,6 +632,10 @@ box-sizing: border-box;
         height: 280px;
     }
 
+    .social-icons {
+        bottom: 50px;
+    }
+
     /*about us responsiveness */
 
     .about-section {
@@ -667,6 +671,13 @@ box-sizing: border-box;
         margin: 15px;
 }
 
+#title-1 {
+    float: left;
+    margin-top: -15px;
+    margin-left: -520px;
+
+}
+
     #quotebox {
     display: flex;
     text-align: center;
@@ -676,6 +687,7 @@ box-sizing: border-box;
  }
 
  .click-section {
+     height: 660px;
     display: flex;
     text-align: center;
     width: auto;
@@ -694,9 +706,12 @@ box-sizing: border-box;
      width: 100%;
      height: 800px;
     }
-}
 
- /*contact page responsiveness */
+    .meet-the-team {
+        height: 960px;
+    }
+
+/*contact page responsiveness */
 
  h3 {
     font-family: Raleway, sans-serif;
@@ -706,6 +721,8 @@ box-sizing: border-box;
     text-align: center;
     height: 75px;
 }
+}
+
 
 /* For Small screen sizes from 576px wide and up*/
 
@@ -726,18 +743,9 @@ box-sizing: border-box;
 
 @media screen and (max-width:480px) {
     .gallery-contain{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1fr);
     }
     .w-1, .w-2, .w-3, .w-4, .w-5 {
-        grid-column: span 1;
+        grid-column: span 2;
     }
     }
-
-
-
-
-
-
-
-
-
