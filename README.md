@@ -1,10 +1,10 @@
-<h1 align="center">Through the Lens Landscape Photography</h1>
+<h1 align="center">Portfolio Project One - HTML/CSS Essentials</h1>
 
 [View the live project here.](https://codeinstitute.net)
 
 This is the main marketing website for Through the Lens Landscape Photography. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users and buyers of Landscape prints.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src=    ></h2>
 
 ## User Experience (UX)
 
@@ -29,7 +29,7 @@ This is the main marketing website for Through the Lens Landscape Photography. I
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The two main colours used are Black and white.
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
