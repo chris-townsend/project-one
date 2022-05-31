@@ -678,7 +678,7 @@ box-sizing: border-box;
 
 }
 
-    #quotebox {
+#quotebox {
     display: flex;
     text-align: center;
     width: 100%;
@@ -737,7 +737,42 @@ box-sizing: border-box;
     font-size: 85%;
     margin: 10px;
     }
+
+#title-1 {
+    float: left;
+    margin-top: -95px;
+    margin-left: 50px;
+
 }
+
+#quotebox {
+    font-size: 60%;
+    padding: 40px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.click-section {
+height: 1100px;
+}
+
+.footer-bottom {
+    position: relative;
+    padding-bottom: 10px;
+    }
+
+}
+
+/*About page responsiveness */
+
+.inner-about {
+    width: 100%;
+    height: 800px;
+   }
+
+   .meet-the-team {
+       height: 1350px;
+   }
 
 /*media query for gallery page for small screen devices */
 
