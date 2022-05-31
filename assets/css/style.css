@@ -549,6 +549,7 @@ box-sizing: border-box;
 
 .meet-the-team {
     margin-top: 6%;
+    margin-bottom: 60px;
 }
 
 .meet-the-team h2 {
@@ -609,7 +610,7 @@ box-sizing: border-box;
 
 /* Media Querys */
 
-/* For large to medium screen sizes from 1200px wide and down*/
+/* For large to medium screen sizes from 1200px wide and up*/
 
 @media screen and (max-width: 1200px) {
 
@@ -639,14 +640,25 @@ box-sizing: border-box;
     /*about us responsiveness */
 
     .about-section {
-            margin: 15px;
-}
+        background: url(../images/camera\ silloute.jpg) no-repeat right;
+        background-color: #d7c6bc;
+        background-size: 60%;
+        overflow: hidden;
+        padding: 300px 0;
+        margin: 10px;
+        box-sizing: border-box;
+        }
+        
+        .inner-about {
+            width: 55%;
+            float: left;
+            background-color: #d7c6bc;
+            padding: 80px;
+            margin-top: -260px;
+        }
 
-.about-me {
-    font-size: 14px;
-}
-
- /*contact page responsiveness */
+            
+/*contact page responsiveness */
 
     h3 {
         height: 30px;
@@ -659,7 +671,8 @@ box-sizing: border-box;
     h4 {
         height:30px;
     }
-}
+
+
 
 /* For Medium screen sizes from 950px wide and up*/
 
@@ -702,14 +715,26 @@ box-sizing: border-box;
 
 /*About page responsiveness */
 
- .inner-about {
-     width: 100%;
-     height: 800px;
+.about-section {
+    background-color: #d7c6bc;
+    background-size: 30%;
+    overflow: hidden;
+    padding: 200px 0;
+    margin: 10px;
+    box-sizing: border-box;
     }
 
-    .meet-the-team {
-        height: 960px;
-    }
+.inner-about {
+    width: 70%;
+    float: left;
+    background-color: #d7c6bc;
+    padding: 80px;
+    margin-top: -250px;
+}
+
+.about-me {
+    font-size: 10px;
+}
 
 /*contact page responsiveness */
 
@@ -765,14 +790,28 @@ height: 1100px;
 
 /*About page responsiveness */
 
+.about-section {
+    background-color: #d7c6bc;
+    background-size: 30%;
+    overflow: hidden;
+    padding: 200px 0;
+    margin: 10px;
+    box-sizing: border-box;
+    }
+
 .inner-about {
     width: 100%;
-    height: 800px;
-   }
+    float: left;
+    background-color: #d7c6bc;
+    padding: 80px;
+    margin-top: -250px;
+}
 
-   .meet-the-team {
-       height: 1350px;
-   }
+.about-me {
+    font-size: 10px;
+}
+
+
 
 /*media query for gallery page for small screen devices */
 
@@ -784,3 +823,4 @@ height: 1100px;
         grid-column: span 2;
     }
     }
+}
