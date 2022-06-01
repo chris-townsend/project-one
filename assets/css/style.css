@@ -564,7 +564,7 @@ box-sizing: border-box;
 }
 
 .inner-about {
-    width: 55%;
+    width: 65%;
     float: left;
     background-color: #d7c6bc;
     padding: 80px;
@@ -972,6 +972,36 @@ h3 {
             list-style: none;
             margin: 0 8px;
     }
+    /*About page responsiveness */
+
+.about-section {
+    background-color: #d7c6bc;
+    background-size: 30%;
+    overflow: hidden;
+    padding: 200px 0;
+    margin: 10px;
+    box-sizing: border-box;
+    }
+
+.inner-about {
+    width: 100%;
+    float: left;
+    background-color: #d7c6bc;
+    padding: 50px;
+    margin-top: -250px;
+}
+
+.about-me {
+    font-size: 8px;
+    margin-top: -50px;
+}
+#about-us {
+    font-size: 90%;
+    margin-top: 20px;
+    height: 50px;
+}
+
+    
 
        }
 
