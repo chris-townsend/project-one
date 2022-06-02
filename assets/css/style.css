@@ -92,6 +92,16 @@ h5 {
 #title-2 {
 font-size: 200%;   
 margin: 10px;
+animation: image-grow 1.5s;
+}
+
+@keyframes image-grow {
+    from {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 #headingtwo {
