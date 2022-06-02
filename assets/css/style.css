@@ -494,6 +494,8 @@ th, td {
     grid-auto-rows: 55px 150px;
     grid-gap: 8px;
     grid-auto-flow: dense;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .gallery-item {
