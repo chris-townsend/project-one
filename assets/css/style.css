@@ -392,7 +392,7 @@ input, textarea{
     border: 1px solid #d7c6bc;
     border-radius: 10px;
     color:#100c01;
-    background: transparent;
+    background: #F0F8FF;
     font-size: 16px;
 }
 
@@ -411,7 +411,7 @@ button {
     padding: 10px 0;
     color:#100c01;
     outline-style: groove;
-    background: transparent;
+    background: #F0F8FF;
     font-size: 16px;
     border: 1px solid #d7c6bc;
     border-radius: 10px;
