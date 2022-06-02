@@ -763,10 +763,11 @@ color: #100c01;
 /*About page responsiveness */
 
 .about-section {
+    
     background-color: #d7c6bc;
     background-size: 45%;
     overflow: hidden;
-    padding: 150px 0;
+    padding: 210px 0;
     margin: 10px;
     box-sizing: border-box;
     }
