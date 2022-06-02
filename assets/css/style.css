@@ -693,7 +693,7 @@ color: #100c01;
     .about-section {
         background: url(../images/camera\ silloute.jpg) no-repeat right;
         background-color: #d7c6bc;
-        background-size: 60%;
+        background-size: 55%;
         overflow: hidden;
         padding: 300px 0;
         margin: 10px;
@@ -705,18 +705,13 @@ color: #100c01;
             float: left;
             background-color: #d7c6bc;
             padding: 80px;
-            margin-top: -260px;
+            margin-top: -340px;
         }
 
 /*contact page responsiveness */
 
-    h3 {
-        height: 230px;
-
-    }
-
-    .container {
-        height: 150px;
+ .container {
+        height: 450px;
     }
 
     h4 {
@@ -769,9 +764,9 @@ color: #100c01;
 
 .about-section {
     background-color: #d7c6bc;
-    background-size: 65%;
+    background-size: 45%;
     overflow: hidden;
-    padding: 200px 0;
+    padding: 150px 0;
     margin: 10px;
     box-sizing: border-box;
     }
@@ -889,6 +884,7 @@ height: 1100px;
 }
 
 /*contact page responsiveness */
+
  #contact-title {
         font-family: Raleway, sans-serif;
         font-weight: 900;
@@ -901,11 +897,6 @@ height: 1100px;
         height: 200px;
     }
  }
-
-
-
-/* For Small screen sizes from 576px wide and up*/
-
 
 /* For small screen sizes from 375px wide and up (iPhone SE)*/
 
@@ -1013,8 +1004,20 @@ height: 1100px;
     margin-top: 20px;
     height: 50px;
 }
+/*contact page responsiveness */
 
+#title-2 {
+    margin-bottom: -80px;
+}
+
+#contact-title {
+    height: 50px;
+    margin-left: -60px;
+}
     
+.container {
+    height: 500px;
+}
 
        }
 
