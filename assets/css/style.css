@@ -716,7 +716,7 @@ color: #100c01;
     }
 
     .container {
-        height: 400px;
+        height: 150px;
     }
 
     h4 {
@@ -769,7 +769,7 @@ color: #100c01;
 
 .about-section {
     background-color: #d7c6bc;
-    background-size: 30%;
+    background-size: 65%;
     overflow: hidden;
     padding: 200px 0;
     margin: 10px;
@@ -780,7 +780,7 @@ color: #100c01;
     width: 70%;
     float: left;
     background-color: #d7c6bc;
-    padding: 80px;
+    padding: 40px;
     margin-top: -250px;
 }
 
@@ -796,16 +796,16 @@ color: #100c01;
     margin-left: 50px;
     }
 
- h3 {
-    font-size: 80%;
-    font-family: Raleway, sans-serif;
-    font-weight: 900;
-    color: #1f1b1a;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-top: 105px;
-    margin-right: 30px;
-}
+    #contact-title {
+        font-size: 80%;
+        font-family: Raleway, sans-serif;
+        font-weight: 900;
+        color: #1f1b1a;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
 
 .contact-background {
     width: 100%;
@@ -814,8 +814,14 @@ color: #100c01;
     background-size: cover;
 }
 
+#contact-title {
+    height: 280px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
 .container {
-   height: 300px; 
+   height: 120px; 
 }
 }
 
@@ -857,13 +863,13 @@ height: 1100px;
     padding-bottom: 10px;
     }
 
-}
+
 
 /*About page responsiveness */
 
 .about-section {
     background-color: #d7c6bc;
-    background-size: 30%;
+    background-size: 0%;
     overflow: hidden;
     padding: 200px 0;
     margin: 10px;
@@ -883,15 +889,22 @@ height: 1100px;
 }
 
 /*contact page responsiveness */
+ #contact-title {
+        font-family: Raleway, sans-serif;
+        font-weight: 900;
+        color: #1f1b1a;
+        letter-spacing: 1px;
+        text-align: center;
+        height: 280px;
+    } 
+    .container {
+        height: 200px;
+    }
+ }
 
-h3 {
-    font-family: Raleway, sans-serif;
-    font-weight: 900;
-    color: #1f1b1a;
-    letter-spacing: 1px;
-    text-align: center;
-    height: 75px;
-}
+
+
+/* For Small screen sizes from 576px wide and up*/
 
 
 /* For small screen sizes from 375px wide and up (iPhone SE)*/
