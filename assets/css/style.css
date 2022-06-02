@@ -154,7 +154,7 @@ margin: 10px;
      border-bottom: 2px solid #100c01;
  }
 
- /* Main Image */
+ /* Main image */
 
  #main-image {
      height: 550px;
@@ -200,7 +200,7 @@ margin: 10px;
     font-family: Libe Franklin, sans-serif;
 }
 
-/* 3 click sections to Gallery Peaks/Coast/Trees */
+/* 3 click sections to Gallery- Peaks/Coast/Trees */
 
  .click-section{
     width: 100%;
@@ -272,7 +272,7 @@ margin: 10px;
     font-size: 10px;
 }
 
-/* Footer */
+/*Footer/Social Links*/
 
 footer {
     height: 150px;
@@ -358,7 +358,7 @@ transform: translate(0, -10px);
     background-color: #3AAF85;
 }
 
-/* Contact form */ 
+/* Contact Page */ 
 
 .contact-background {
     width: 100%;
@@ -476,7 +476,7 @@ th, td {
     vertical-align: bottom;
 }
 
-  /*Gallery Page */
+  /*Gallery Page*/
 
 .gallery-contain {
     display: grid;
@@ -551,7 +551,8 @@ th, td {
 .h-6 {
     grid-row: span 6;
 }
-/* About Page */
+
+/*About Page*/
 
 .about-section {
 background: url(../images/camera\ silloute.jpg) no-repeat right;
@@ -595,7 +596,6 @@ box-sizing: border-box;
 
 a, i {
 color: #100c01;
-
 }
 
 .meet-the-team {
@@ -663,6 +663,8 @@ color: #100c01;
 
 /* For large to medium screen sizes from 1200px wide and up*/
 
+/*home page */
+
 @media screen and (max-width: 1200px) {
 
     #main-image {
@@ -719,9 +721,9 @@ color: #100c01;
     }
 }
 
+/* For medium screen sizes from 950px wide and up*/
 
-
-/* For Medium screen sizes from 950px wide and up*/
+/* homepage */
 
 @media screen and (max-width: 950px) {
 
@@ -735,7 +737,6 @@ color: #100c01;
     float: left;
     margin-top: -15px;
     margin-left: -520px;
-
 }
 
 #quotebox {
@@ -760,10 +761,9 @@ color: #100c01;
     padding-bottom: 10px;
     }
 
-/*About page responsiveness */
+/*about page responsiveness */
 
 .about-section {
-    
     background-color: #d7c6bc;
     background-size: 45%;
     overflow: hidden;
@@ -792,15 +792,15 @@ color: #100c01;
     margin-left: 50px;
     }
 
-    #contact-title {
-        font-size: 80%;
-        font-family: Raleway, sans-serif;
-        font-weight: 900;
-        color: #1f1b1a;
-        letter-spacing: 1px;
-        text-align: center;
-        margin-top: 10px;
-        margin-right: 30px;
+#contact-title {
+    font-size: 80%;
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    color: #1f1b1a;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 30px;
     }
 
 .contact-background {
@@ -821,8 +821,9 @@ color: #100c01;
 }
 }
 
+/* For small screen sizes from 576px wide and up*/
 
-/* For Small screen sizes from 576px wide and up*/
+/*homepage */
 
 @media screen and (max-width: 576px) {
 
@@ -840,7 +841,6 @@ color: #100c01;
     float: left;
     margin-top: -95px;
     margin-left: 50px;
-
 }
 
 #quotebox {
@@ -859,9 +859,7 @@ height: 1100px;
     padding-bottom: 10px;
     }
 
-
-
-/*About page responsiveness */
+/*about page responsiveness */
 
 .about-section {
     background-color: #d7c6bc;
@@ -900,6 +898,8 @@ height: 1100px;
  }
 
 /* For small screen sizes from 375px wide and up (iPhone SE)*/
+
+/*homepage */
 
 @media screen and (max-width: 375px) {
 
@@ -977,7 +977,8 @@ height: 1100px;
             list-style: none;
             margin: 0 8px;
     }
-    /*About page responsiveness */
+
+/*about page responsiveness */
 
 .about-section {
     background-color: #d7c6bc;
@@ -1005,6 +1006,7 @@ height: 1100px;
     margin-top: 20px;
     height: 50px;
 }
+
 /*contact page responsiveness */
 
 #title-2 {
@@ -1019,10 +1021,7 @@ height: 1100px;
 .container {
     height: 500px;
 }
-
-       }
-
-
+}
 
 /*media query for gallery page for small screen devices */
 
