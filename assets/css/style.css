@@ -295,7 +295,7 @@ footer .footer-bottom {
     height: 100px;
     position: absolute;
     bottom: 0px;
-    left: 10px;
+    right: 10px;
     padding-top: 80px;
     letter-spacing: 1px;
 }
