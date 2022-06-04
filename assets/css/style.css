@@ -202,12 +202,12 @@ animation: image-grow 1.5s;
 }
 
 .quote h6 {
-    font-family: Libre Franklin, sans-serif;
+    font-family:'Libre Franklin', 'sans-serif';
     font-size: 28px;
 }
 
 .quote p {
-    font-family: Libe Franklin, sans-serif;
+    font-family:'Libe Franklin', 'sans-serif';
 }
 
 /* 3 click sections to Gallery- Peaks/Coast/Trees */
