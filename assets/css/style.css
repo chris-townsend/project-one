@@ -487,7 +487,7 @@ th, td {
 }
 
 .contact-map {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
   /*Gallery Page*/
@@ -500,6 +500,7 @@ th, td {
     grid-auto-flow: dense;
     margin-left: 8px;
     margin-right: 8px;
+    margin-bottom: 82px;
 }
 
 .gallery-item {
@@ -637,7 +638,7 @@ color: #100c01;
  .team .employee {
     margin: 5px;
     background:#d7c6bc;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     width: 350px;
     padding: 15px;
     line-height: 22px;
