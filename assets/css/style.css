@@ -372,14 +372,14 @@ transform: translate(0, -10px);
 
 .contact-background {
     width: 100%;
-    height: 750px;
-    background: url(../images/hot\ air\ balloon\ contact\ page.jpg) no-repeat center;
+    height: 650px;
+    background: url(../images/balloon-contact-page.jpg) no-repeat center;
     background-size: cover;
 }
 
 .container {
     width: 100%;
-    height: 500px;
+    height: 400px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -484,6 +484,10 @@ th, td {
 .column {
     width: 150px;
     vertical-align: bottom;
+}
+
+.contact-map {
+    height: 450px;
 }
 
   /*Gallery Page*/
