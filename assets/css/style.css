@@ -169,7 +169,7 @@ animation: image-grow 1.5s;
  #main-image {
      height: 550px;
      width: 100%;
-     background: url(../images/cappadocia-turkey-hero-image.jpg) no-repeat center;
+     background: url(../images/cappadocia-turkey-hero-image.webp) no-repeat center;
      background-size: cover;
  }
 
