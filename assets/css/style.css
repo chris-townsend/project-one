@@ -615,8 +615,9 @@ color: #100c01;
 }
 
 .meet-the-team {
-    margin-top: 6%;
-    margin-bottom: 60px;
+    margin-top: 60px;;
+    margin-bottom: 80px;
+
 }
 
 .meet-the-team h2 {
@@ -636,7 +637,7 @@ color: #100c01;
  .team .employee {
     margin: 5px;
     background:#d7c6bc;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     width: 350px;
     padding: 15px;
     line-height: 22px;
