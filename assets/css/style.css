@@ -1044,7 +1044,7 @@ height: 1100px;
 
 @media screen and (max-width:480px) {
     .gallery-contain{
-        grid-template-columns: repeat(1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     .w-1, .w-2, .w-3, .w-4, .w-5 {
         grid-column: span 2;
