@@ -169,7 +169,7 @@ animation: image-grow 1.5s;
  #main-image {
      height: 550px;
      width: 100%;
-     background: url(../images/cappadocia-turkey-hero-image.webp) no-repeat center;
+     background: url(../images/Cappadocia\,\ Turkey\ main\ image\(1\).webp) no-repeat center;
      background-size: cover;
  }
 
@@ -489,6 +489,10 @@ th, td {
     margin-bottom: 8px;
 }
 
+.contact-map iframe {
+    width: 855px;
+}
+
   /*Gallery Page*/
 
 .gallery-contain {
@@ -729,6 +733,13 @@ color: #100c01;
 
 /*contact page responsiveness */
 
+.contact-background {
+    width: 100%;
+    height: 680px;
+    background: url(../images/balloon-contact-page.webp) no-repeat center;
+    background-size: cover;
+}
+
  .container {
         height: 450px;
     }
@@ -823,7 +834,7 @@ color: #100c01;
 .contact-background {
     width: 100%;
     height: 680px;
-    background: url(../images/hot\ air\ balloon\ contact\ page.jpg) no-repeat center;
+    background: url(../images/balloon-contact-page.webp) no-repeat center;
     background-size: cover;
 }
 
@@ -835,6 +846,10 @@ color: #100c01;
 
 .container {
    height: 120px; 
+}
+
+.contact-map iframe {
+    width: 500px;
 }
 }
 
@@ -901,7 +916,14 @@ height: 1100px;
 
 /*contact page responsiveness */
 
- #contact-title {
+.contact-background {
+        width: 100%;
+        height: 680px;
+        background: url(../images/balloon-contact-page.webp) no-repeat center;
+        background-size: cover;
+    }
+
+#contact-title {
         font-family: Raleway, sans-serif;
         font-weight: 900;
         color: #1f1b1a;
@@ -913,6 +935,8 @@ height: 1100px;
         height: 200px;
     }
  }
+
+ 
 
 /* For small screen sizes from 375px wide and up (iPhone SE)*/
 
@@ -1026,6 +1050,13 @@ height: 1100px;
 
 /*contact page responsiveness */
 
+.contact-background {
+    width: 100%;
+    height: 680px;
+    background: url(../images/balloon-contact-page.webp) no-repeat center;
+    background-size: cover;
+}
+
 #title-2 {
     margin-bottom: -80px;
 }
@@ -1037,6 +1068,10 @@ height: 1100px;
     
 .container {
     height: 500px;
+}
+
+.contact-map iframe {
+    width: 375px;
 }
 }
 
