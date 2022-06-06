@@ -792,6 +792,7 @@ color: #100c01;
 /*about page responsiveness */
 
 .about-section {
+    background: url(../images/camera-silloute-about-page.webp) no-repeat right;
     background-color: #d7c6bc;
     background-size: 45%;
     overflow: hidden;
