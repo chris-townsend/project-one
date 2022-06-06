@@ -1164,6 +1164,37 @@ height: 1100px;
 }
 }
 
+/* For small screen sizes from 360px wide and up*/
+
+/*homepage */
+
+@media screen and (max-width: 360px) {
+
+    #menu {
+        font-size: 45%;
+        letter-spacing: 2px;
+        margin-left: 25px;
+        }
+
+    #main-image {
+        height: 250px;
+        width: 100%;
+        background: url(../images/Cappadocia\,\ Turkey\ main\ image\(1\).webp) no-repeat center;
+        background-size: cover;
+        }
+
+        .click-section {
+            height: 1200px;
+        }
+
+        /*contact page responsiveness */
+
+        .contact-map iframe {
+            width: 340px;
+            margin-bottom: 25px;
+        }
+}
+
 /*media query for gallery page for small screen devices */
 
 @media screen and (max-width:480px) {
@@ -1174,3 +1205,4 @@ height: 1100px;
         grid-column: span 2;
     }
     }
+
