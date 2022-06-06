@@ -952,7 +952,7 @@ height: 1100px;
     }
     
     #menu {
-        font-size: 45%;
+        font-size: 40%;
         margin: 12px;
         }
    
@@ -1203,7 +1203,7 @@ height: 1100px;
         grid-template-columns: repeat(2,1fr);
     }
     .w-1, .w-2, .w-3, .w-4, .w-5 {
-        grid-column: span 2;
+        grid-column: span 4;
     }
     }
 
