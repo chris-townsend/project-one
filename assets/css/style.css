@@ -869,6 +869,8 @@ color: #100c01;
     margin: 10px;
     }
 
+
+
 #title-1 {
     float: left;
     margin-top: -95px;
@@ -936,9 +938,91 @@ height: 1100px;
     }
  }
 
- 
+ /* For small screen sizes from 414px wide and up*/
 
-/* For small screen sizes from 375px wide and up (iPhone SE)*/
+/*homepage */
+
+@media screen and (max-width: 414px) {
+
+
+    #main-image {
+        width: 100%;
+        height: 400px;
+    }
+    
+    #menu {
+        font-size: 45%;
+        margin: 12px;
+        }
+   
+   #title {
+       font-size: 150%;
+   }     
+
+   #title-1 {
+       font-size: 140%;
+        float: left;
+        margin-top: -95px;
+        margin-left: 50px;
+    }
+
+    .click-section {
+        height: 1000px;
+        margin-bottom: 120px;
+        }
+
+    /*about page responsiveness */
+
+.about-section {
+    background-color: #d7c6bc;
+    background-size: 0%;
+    overflow: hidden;
+    padding: 200px 0;
+    margin: 10px;
+    box-sizing: border-box;
+    }
+
+.inner-about {
+    width: 100%;
+    float: left;
+    background-color: #d7c6bc;
+    padding: 60px;
+    margin-top: -250px;
+}
+
+.about-me {
+    font-size: 8px;
+}    
+
+/*contact page responsiveness */
+
+.contact-background {
+    width: 100%;
+    height: 680px;
+    background: url(../images/balloon-contact-page.webp) no-repeat center;
+    background-size: cover;
+}
+
+#contact-title {
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    color: #1f1b1a;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: -25px;
+    margin-top: -55px;
+    height: 260px;
+} 
+.container {
+    height: 200px;
+}
+
+.contact-map iframe {
+    width: 400px;
+}
+}
+
+ /* For small screen sizes from 375px wide and up (iPhone SE)*/
 
 /*homepage */
 
