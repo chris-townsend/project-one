@@ -1058,7 +1058,7 @@ height: 1100px;
         }
 
     #main-image {
-        height: 350px;
+        height: 250px;
         width: 100%;
         background: url(../images/Cappadocia\,\ Turkey\ main\ image\(1\).webp) no-repeat center;
         background-size: cover;
@@ -1079,10 +1079,10 @@ height: 1100px;
         }
 
         .card {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
             display: inline-block;
-            border-radius: 40px;
+            border-radius: 30px;
             box-sizing: border-box;
             padding: 15px 30px;
             justify-content: center;
