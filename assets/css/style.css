@@ -244,7 +244,7 @@ animation: image-grow 1.5s;
 }
 
 .mountian-card {
-    background-image: url(../images/Mountain\ home\ page\ -\ Nepal.jpg);
+    background-image: url(../images/mountain-home-page.webp);
     justify-items: center;
     font-size: 25px;
     font-family: Raleway, sans-serif;
@@ -254,7 +254,7 @@ animation: image-grow 1.5s;
 }
 
 .coastal-card {
-    background-image: url(../images/coastal\ photo\ homepage\ .jpg);
+    background-image: url(../images/coast-home-page.webp);
     justify-items: center;
     font-size: 25px;
     font-family: Raleway, sans-serif;
@@ -264,7 +264,7 @@ animation: image-grow 1.5s;
 }
 
 .tree-card {
-    background-image: url(../images/Trees\ homepage.jpg);
+    background-image: url(../images/trees-home-page.webp);
     justify-items: center;
     font-size: 25px;
     font-family: Raleway, sans-serif;
