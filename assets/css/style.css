@@ -866,7 +866,7 @@ color: #100c01;
 }
 
 #menu {
-    font-size: 85%;
+    font-size: 65%;
     margin: 10px;
     }
 
@@ -1052,7 +1052,7 @@ height: 1100px;
         }
     }
     #menu {
-        font-size: 65%;
+        font-size: 35%;
         letter-spacing: 2px;
         margin-left: 25px;
         }
