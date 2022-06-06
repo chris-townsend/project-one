@@ -1030,15 +1030,15 @@ height: 1100px;
 
     #title {
         float: left;
-        font-size: 250%;
+        font-size: 140%;
         margin: 5px;
     }
 
     #title-1 {
         font-size: 100%;
         float: left;
-        margin-top: -12px;
-        margin-left: -320px;
+        margin-top: -20px;
+        margin-left: -282px;
         animation: image-grow 1.5s;
     }
     
@@ -1059,7 +1059,7 @@ height: 1100px;
     #main-image {
         height: 350px;
         width: 100%;
-        background: url(../images/Cappadocia\,\ Turkey\ main\ image.jpg) no-repeat center;
+        background: url(../images/Cappadocia\,\ Turkey\ main\ image\(1\).webp) no-repeat center;
         background-size: cover;
         }
 
@@ -1142,11 +1142,16 @@ height: 1100px;
 }
 
 #title-2 {
-    margin-bottom: -80px;
+    font-size: 100%;
+        float: left;
+        margin-top: -20px;
+        margin-left: -282px;
+        animation: image-grow 1.5s;
 }
 
 #contact-title {
-    height: 50px;
+    margin-top: 40px;
+    height: 40px;
     margin-left: -60px;
 }
     
