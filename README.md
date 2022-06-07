@@ -46,7 +46,12 @@ In this project I intend to provide a portfolio style website to showcase some o
     -   #### Colour Scheme
         -   The two main colours used are Black and white.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+    The fonts are imported into the CSS file from *[Google Fonts](https://fonts.google.com/)* 
+    - The **Raleway** font is the main font used throughout the whole website with **Sans Serif** as the fallback font in case for any reason the font isn't being imported into the site correctly. **Raleway** is an elegent **sans-serif** typeface family which makes the text look bold and personable.
+    ![Font-Raleway](./assets/images/font-raleway.webp)
+    - For the main headings I have used the **Caveat** font, with **Sans Serif** as a fallback font. Its a hand-writing type family which gives the website a friendly appearence.
+    ![Font-Caveat](./assets/images/font-caveat.webp)
+         
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
