@@ -3,13 +3,19 @@
 ## Live Site
 [Through the Lens - Landscape Photography](https://chris-townsend.github.io/project-one/index.html)
 
+**
+
 ## Repository
 [https://github.com/chris-townsend/project-one](https://github.com/chris-townsend/project-one)
+
+***
 
 ## Objective
 In this project I intend to provide a portfolio style website to showcase some of the best Landscape photography prints. The main objective is to demonstrate competency in HTML and CSS. I hope to provide an emotive, static front end application which is clearly laid out and easy to navigate. 
 
 **The needs within this project are not genuine and is made only for the purpose of completing my Code Institute PP1 project**
+
+***
 
 ## Brief
 - The goal of the website is to showcase Chris's landscape photography prints with the potential for users to contact the publisher if neccesary by using the contact form provided
@@ -20,6 +26,8 @@ In this project I intend to provide a portfolio style website to showcase some o
 
 
 ![Am I responsive](./assets/images/am-i-responsive.webp)
+
+***
 
 
 ## User Experience (UX)
@@ -41,19 +49,26 @@ In this project I intend to provide a portfolio style website to showcase some o
 
         1. As a Frequent User, I want to check to see if there has been any new added photos.
        
+    ***
 
 -   ### Design
     -   #### Colour Scheme
         -   The two main colours used are Black and white.
+
+    ***
     -   #### Typography
     The fonts are imported into the CSS file from *[Google Fonts](https://fonts.google.com/)* 
     - The **Raleway** font is the main font used throughout the whole website with **Sans Serif** as the fallback font in case for any reason the font isn't being imported into the site correctly. **Raleway** is an elegent **sans-serif** typeface family which makes the text look bold and personable.
     ![Font-Raleway](./assets/images/font-raleway.webp)
     - For the main headings I have used the **Caveat** font, with **Sans Serif** as a fallback font. Its a hand-writing type family which gives the website a friendly appearence.
     ![Font-Caveat](./assets/images/font-caveat.webp)
+
+    ***
          
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Imagery is important through out the website, especially on the homepage and gallery page. The large, background hero image is designed to be striking and catch the user's attention when they first vist the site. It has a modern and bright aesthetic. All of the images have been compressed using *[Compressor.io](https://compressor.io/)* to reduce size and load times.
+    
+    ***
 
 *   ### Wireframes
 
