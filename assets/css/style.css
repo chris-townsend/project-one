@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Franklin:ital@1&family=Raleway:wght@300&display=swap');
 
-* { margin: 0;
+* {
+    margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
-   }
+}
 
 body {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 800;
     display: flex;
     flex-direction: column;
@@ -21,23 +22,26 @@ body {
 h1 {
     animation: image-grow 1.5s;
 }
+
 @keyframes image-grow {
     from {
         transform: scale(0.2);
     }
+
     to {
         transform: scale(1);
     }
 }
 
-h1, h2 {
-    font-family: Caveat, sans-serif;
+h1,
+h2 {
+    font-family: 'Caveat', 'sans-serif';
     letter-spacing: 6px;
     color: #1f1b1a;
 }
 
 h3 {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 900;
     color: #1f1b1a;
     letter-spacing: 2px;
@@ -47,7 +51,7 @@ h3 {
 }
 
 h4 {
-    font-family: Caveat, sans-serif;
+    font-family: 'Caveat', 'sans-serif';
     font-size: 160%;
     font-weight: 900;
     color: #1f1b1a;
@@ -58,9 +62,9 @@ h4 {
 }
 
 h5 {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 900;
-    color:#1f1b1a;
+    color: #1f1b1a;
     letter-spacing: 1px;
     text-align: center;
     text-shadow: 0 0 5px #999;
@@ -84,37 +88,41 @@ h5 {
     from {
         transform: scale(0.2);
     }
+
     to {
         transform: scale(1);
     }
 }
 
 #title-2 {
-font-size: 200%;   
-margin: 15px;
-animation: image-grow 1.5s;
+    font-size: 200%;
+    margin: 15px;
+    animation: image-grow 1.5s;
 }
 
 @keyframes image-grow {
     from {
         transform: scale(0.2);
     }
+
     to {
         transform: scale(1);
     }
 }
 
 #headingtwo {
-    height:100px;
-    }
+    height: 100px;
+}
 
- #about-us {
-     animation: image-grow 6s ;
- }   
- @keyframes image-grow {
+#about-us {
+    animation: image-grow 6s;
+}
+
+@keyframes image-grow {
     from {
         transform: scale(0.1);
     }
+
     to {
         transform: scale(1);
     }
@@ -124,10 +132,12 @@ animation: image-grow 1.5s;
     font-size: 300%;
     animation: image-grow 8s;
 }
+
 @keyframes image-grow {
     from {
         transform: scale(0.1);
     }
+
     to {
         transform: scale(1);
     }
@@ -138,42 +148,43 @@ animation: image-grow 1.5s;
 #menu {
     font-size: 140%;
     letter-spacing: 6px;
-    }
-
-    #menu, #title {
-    min-height: 50px;    
 }
 
- #menu li {
-     float: right;
-     list-style-type: none;
-     margin-right: 40px;
-     margin-top: 10px;
- }
+#menu,
+#title {
+    min-height: 50px;
+}
 
- #menu a {
-     text-decoration: none;
-     color: inherit;
- }
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+    margin-top: 10px;
+}
 
- #menu a:hover {
-     border-bottom: 2px solid #100c01;
- }
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
 
- nav.bar {
-     border-bottom: 2px solid #100c01;
- }
+#menu a:hover {
+    border-bottom: 2px solid #100c01;
+}
 
- /* main image */
+nav.bar {
+    border-bottom: 2px solid #100c01;
+}
 
- #main-image {
-     height: 550px;
-     width: 100%;
-     background: url(../images/Cappadocia\,\ Turkey\ main\ image\(1\).webp) no-repeat center;
-     background-size: cover;
- }
+/* main image */
 
- /*quote box */
+#main-image {
+    height: 550px;
+    width: 100%;
+    background: url(../images/Cappadocia\,\ Turkey\ main\ image\(1\).webp) no-repeat center;
+    background-size: cover;
+}
+
+/*quote box */
 
 #quotebox {
     position: relative;
@@ -190,6 +201,7 @@ animation: image-grow 1.5s;
     from {
         transform: scale(0.2);
     }
+
     to {
         transform: scale(1);
     }
@@ -202,53 +214,53 @@ animation: image-grow 1.5s;
 }
 
 .quote h6 {
-    font-family:'Libre Franklin', 'sans-serif';
+    font-family: 'Libre Franklin', 'sans-serif';
     font-size: 28px;
 }
 
 .quote p {
-    font-family:'Libe Franklin', 'sans-serif';
+    font-family: 'Libe Franklin', 'sans-serif';
 }
 
 /* 3 click sections to gallery- peaks/coast/trees */
 
- .click-section{
+.click-section {
     width: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
 }
-    
+
 .card {
- width: 300px;
- height: 300px;
- display: inline-block;
- border-radius: 40px;
- box-sizing: border-box;
- padding: 25px 30px;
- justify-content: center;
- cursor: pointer;
- background-position: center;
- background-size: cover;
- margin: 15px;
- transition: 0.5s;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 25px 30px;
+    justify-content: center;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    margin: 15px;
+    transition: 0.5s;
 }
 
 .gallery-card {
     font-size: 90%;
-        font-family: Raleway, sans-serif;
-        font-weight: 900;
-        color: #1f1b1a;
-        letter-spacing: 1px;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 900;
+    color: #1f1b1a;
+    letter-spacing: 1px;
 }
 
 .mountian-card {
     background-image: url(../images/mountain-home-page.webp);
     justify-items: center;
     font-size: 25px;
-    font-family: Raleway, sans-serif;
-    color:#100c01;
+    font-family: 'Raleway', 'sans-serif';
+    color: #100c01;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -257,8 +269,8 @@ animation: image-grow 1.5s;
     background-image: url(../images/coast-home-page.webp);
     justify-items: center;
     font-size: 25px;
-    font-family: Raleway, sans-serif;
-    color:#100c01;
+    font-family: 'Raleway', 'sans-serif';
+    color: #100c01;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -267,8 +279,8 @@ animation: image-grow 1.5s;
     background-image: url(../images/trees-home-page.webp);
     justify-items: center;
     font-size: 25px;
-    font-family: Raleway, sans-serif;
-    color:#100c01;
+    font-family: 'Raleway', 'sans-serif';
+    color: #100c01;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -290,7 +302,7 @@ footer {
 }
 
 footer .footer-bottom {
-    color:#1f1b1a;
+    color: #1f1b1a;
     font-size: 12px;
     height: 100px;
     position: absolute;
@@ -305,9 +317,9 @@ footer .footer-bottom {
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
-    height:50px;
+    height: 50px;
 }
-   
+
 .social-icons ul {
     position: absolute;
     left: 50%;
@@ -315,40 +327,40 @@ footer .footer-bottom {
     margin: 0;
     transform: translate(-50%, -50%);
     display: flex;
-    }
-
-    .social-icons ul li {
-        list-style: none;
-        margin: 0 25px;
 }
 
-    .social-icons ul li a {
-        font-size: 30px;
-        align-items: center;
-        line-height: 60px;
-        transition: .6s;
-        color: #100c01;
-    }
+.social-icons ul li {
+    list-style: none;
+    margin: 0 25px;
+}
 
-    .social-icons ul li .fa:hover {
+.social-icons ul li a {
+    font-size: 30px;
+    align-items: center;
+    line-height: 60px;
+    transition: .6s;
+    color: #100c01;
+}
+
+.social-icons ul li .fa:hover {
     color: #f5f5f5;
-    }
+}
 
- .social-icons ul li a {
-        position: relative;
-        display: block;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        background-color: #d7c6bc;
-        text-align: center;
-        align-items: center;
-        transition: .6s;
-        box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
- }
+.social-icons ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #d7c6bc;
+    text-align: center;
+    align-items: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
 
- .social-icons ul li a:hover {
-transform: translate(0, -10px);
+.social-icons ul li a:hover {
+    transform: translate(0, -10px);
 }
 
 .social-icons ul li:nth-child(1) a:hover {
@@ -367,7 +379,7 @@ transform: translate(0, -10px);
     background-color: #3AAF85;
 }
 
-/* contact page */ 
+/* contact page */
 
 .contact-background {
     width: 100%;
@@ -379,7 +391,7 @@ transform: translate(0, -10px);
 .container {
     width: 100%;
     height: 400px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -390,35 +402,36 @@ form {
 }
 
 .contact-box {
-margin-bottom: 30px;
-position: relative;
+    margin-bottom: 30px;
+    position: relative;
 }
 
-input, textarea{
+input,
+textarea {
     width: 100%;
     padding: 10px;
     outline-style: groove;
     border: 1px solid #d7c6bc;
     border-radius: 10px;
-    color:#100c01;
+    color: #100c01;
     background: #F0F8FF;
     font-size: 16px;
 }
 
 label {
-height: 100%;
-position: absolute;
-left: 0;
-top: 0;
-padding: 10px;
-color:#100c01;
-cursor: text;
-transition: 0.3s;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #100c01;
+    cursor: text;
+    transition: 0.3s;
 }
 
 button {
     padding: 10px 0;
-    color:#100c01;
+    color: #100c01;
     outline-style: groove;
     background: #F0F8FF;
     font-size: 16px;
@@ -451,16 +464,18 @@ button:hover span {
 }
 
 button:hover span:after {
-opacity: 1;
-right: 0;
+    opacity: 1;
+    right: 0;
 }
 
-input:focus~label, input:valid~label {
+input:focus~label,
+input:valid~label {
     top: -35px;
     font-size: 15px;
 }
 
-textarea:focus~label, textarea:valid~label {
+textarea:focus~label,
+textarea:valid~label {
     top: -35px;
     font-size: 15px;
 }
@@ -471,11 +486,13 @@ textarea:focus~label, textarea:valid~label {
     justify-content: space-between;
 }
 
-.connect, .contact-box {
+.connect,
+.contact-box {
     flex-basis: 46%;
 }
 
-th, td {
+th,
+td {
     padding: 4px;
     border-bottom: 1px solid #100c01;
 }
@@ -493,11 +510,11 @@ th, td {
     width: 855px;
 }
 
-  /*gallery page*/
+/*gallery page*/
 
 .gallery-contain {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: 55px 150px;
     grid-gap: 8px;
     grid-auto-flow: dense;
@@ -512,13 +529,15 @@ th, td {
     position: relative;
 }
 
-.gallery-item, .image {
+.gallery-item,
+.image {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-.gallery-item, .image img {
+.gallery-item,
+.image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -533,9 +552,10 @@ th, td {
 .w-1 {
     grid-column: span 1;
 }
+
 .w-2 {
     grid-column: span 2;
-    }
+}
 
 .w-3 {
     grid-column: span 3;
@@ -543,31 +563,36 @@ th, td {
 
 .w-4 {
     grid-column: span 4;
-    }
+}
 
 .w-5 {
     grid-column: span 5;
-    }
+}
 
 .w-6 {
-     grid-column: span 6;
-    }
+    grid-column: span 6;
+}
 
 .h-1 {
     grid-row: span 1;
 }
+
 .h-2 {
     grid-row: span 2;
 }
+
 .h-3 {
     grid-row: span 3;
 }
+
 .h-4 {
     grid-row: span 4;
 }
+
 .h-5 {
     grid-row: span 5;
 }
+
 .h-6 {
     grid-row: span 6;
 }
@@ -575,13 +600,13 @@ th, td {
 /*about page*/
 
 .about-section {
-background: url(../images/camera-silloute-about-page.webp) no-repeat right;
-background-color: #d7c6bc;
-background-size: 60%;
-overflow: hidden;
-padding: 300px 0;
-margin: 10px;
-box-sizing: border-box;
+    background: url(../images/camera-silloute-about-page.webp) no-repeat right;
+    background-color: #d7c6bc;
+    background-size: 60%;
+    overflow: hidden;
+    padding: 300px 0;
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 .inner-about {
@@ -601,7 +626,7 @@ box-sizing: border-box;
 
 .about-me {
     font-size: 22px;
-    color:#1f1b1a;
+    color: #1f1b1a;
     line-height: 25px;
     text-align: justify;
     margin-bottom: 25px;
@@ -615,11 +640,12 @@ box-sizing: border-box;
 }
 
 a, i {
-color: #100c01;
+    color: #100c01;
 }
 
 .meet-the-team {
-    margin-top: 60px;;
+    margin-top: 60px;
+    ;
     margin-bottom: 80px;
 
 }
@@ -638,9 +664,9 @@ color: #100c01;
     flex-wrap: wrap;
 }
 
- .team .employee {
+.team .employee {
     margin: 5px;
-    background:#d7c6bc;
+    background: #d7c6bc;
     margin-bottom: 150px;
     width: 350px;
     padding: 15px;
@@ -649,7 +675,7 @@ color: #100c01;
     position: relative;
 }
 
- .team .employee h3 {
+.team .employee h3 {
     font-size: 22px;
     color: #1f1b1a;
     margin-top: 50px;
@@ -670,7 +696,7 @@ color: #100c01;
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
-    background:#d7c6bc;
+    background: #d7c6bc;
 }
 
 .team .employee .employee-img img {
@@ -680,18 +706,18 @@ color: #100c01;
     padding: 6px;
 }
 
-/* media querys */
+/*media querys*/
 
-/* for large to medium screen sizes from 1200px wide and up*/
+/*for large to medium screen sizes from 1200px wide*/
 
-/*home page */
+/*home page responsiveness*/
 
 @media screen and (max-width: 1200px) {
 
     #main-image {
-       width: 100%; 
-       height: 600px;
-       margin: 0 auto;
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
     }
 
     #title {
@@ -711,7 +737,7 @@ color: #100c01;
         bottom: 50px;
     }
 
-    /*about us responsiveness */
+    /*about us responsiveness*/
 
     .about-section {
         background: url(../images/camera-silloute-about-page.webp) no-repeat right;
@@ -721,37 +747,37 @@ color: #100c01;
         padding: 300px 0;
         margin: 10px;
         box-sizing: border-box;
-        }
-        
-        .inner-about {
-            width: 55%;
-            float: left;
-            background-color: #d7c6bc;
-            padding: 80px;
-            margin-top: -340px;
-        }
+    }
 
-/*contact page responsiveness */
+    .inner-about {
+        width: 55%;
+        float: left;
+        background-color: #d7c6bc;
+        padding: 80px;
+        margin-top: -340px;
+    }
 
-.contact-background {
-    width: 100%;
-    height: 680px;
-    background: url(../images/balloon-contact-page.webp) no-repeat center;
-    background-size: cover;
-}
+    /*contact page responsiveness*/
 
- .container {
+    .contact-background {
+        width: 100%;
+        height: 680px;
+        background: url(../images/balloon-contact-page.webp) no-repeat center;
+        background-size: cover;
+    }
+
+    .container {
         height: 450px;
     }
 
     h4 {
-        height:30px;
+        height: 30px;
     }
 }
 
-/* for medium screen sizes from 950px wide and up*/
+/* for medium screen sizes from 950px wide*/
 
-/* homepage */
+    /*homepage responsiveness*/
 
 @media screen and (max-width: 950px) {
 
@@ -759,270 +785,272 @@ color: #100c01;
         clear: left;
         float: left;
         margin: 15px;
-}
-
-#title-1 {
-    float: left;
-    margin-top: -15px;
-    margin-left: -520px;
-}
-
-#quotebox {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
- }
-
- .click-section {
-     height: 660px;
-    display: flex;
-    text-align: center;
-    width: auto;
-    justify-content: center;
-    flex-wrap: wrap;
- }
-
- .footer-bottom {
-    position: relative;
-    padding-bottom: 10px;
     }
 
-/*about page responsiveness */
-
-.about-section {
-    background: url(../images/camera-silloute-about-page.webp) no-repeat right;
-    background-color: #d7c6bc;
-    background-size: 45%;
-    overflow: hidden;
-    padding: 210px 0;
-    margin: 10px;
-    box-sizing: border-box;
+    #title-1 {
+        float: left;
+        margin-top: -15px;
+        margin-left: -520px;
     }
 
-.inner-about {
-    width: 70%;
-    float: left;
-    background-color: #d7c6bc;
-    padding: 40px;
-    margin-top: -250px;
-}
-
-.about-me {
-    font-size: 10px;
-}
-
-/*contact page responsiveness */
-
-#title-2 {
-    font-size: 100%; 
-    margin-top: 50px;  
-    margin-left: 50px;
+    #quotebox {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-#contact-title {
-    font-size: 80%;
-    font-family: Raleway, sans-serif;
-    font-weight: 900;
-    color: #1f1b1a;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-top: 10px;
-    margin-right: 30px;
+    .click-section {
+        height: 660px;
+        display: flex;
+        text-align: center;
+        width: auto;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-.contact-background {
-    width: 100%;
-    height: 680px;
-    background: url(../images/balloon-contact-page.webp) no-repeat center;
-    background-size: cover;
-}
-
-#contact-title {
-    height: 280px;
-    padding-top: 100px;
-    padding-left: 100px;
-}
-
-.container {
-   height: 120px; 
-}
-
-.contact-map iframe {
-    width: 500px;
-}
-}
-
-/* for small screen sizes from 576px wide and up*/
-
-/*homepage */
-
-@media screen and (max-width: 576px) {
-
-#main-image {
-    width: 100%;
-    height: 350px;
-}
-
-#menu {
-    font-size: 65%;
-    margin: 10px;
+    .footer-bottom {
+        position: relative;
+        padding-bottom: 10px;
     }
 
-#title-1 {
-    float: left;
-    margin-top: -95px;
-    margin-left: 50px;
-}
+    /*about page responsiveness*/
 
-#quotebox {
-    font-size: 60%;
-    padding: 40px;
-    height: 150px;
-    margin-top: 50px;
-}
-
-.click-section {
-height: 1100px;
-}
-
-.footer-bottom {
-    position: relative;
-    padding-bottom: 10px;
+    .about-section {
+        background: url(../images/camera-silloute-about-page.webp) no-repeat right;
+        background-color: #d7c6bc;
+        background-size: 45%;
+        overflow: hidden;
+        padding: 210px 0;
+        margin: 10px;
+        box-sizing: border-box;
     }
 
-/*about page responsiveness */
-
-.about-section {
-    background-color: #d7c6bc;
-    background-size: 0%;
-    overflow: hidden;
-    padding: 200px 0;
-    margin: 10px;
-    box-sizing: border-box;
+    .inner-about {
+        width: 70%;
+        float: left;
+        background-color: #d7c6bc;
+        padding: 40px;
+        margin-top: -250px;
     }
 
-.inner-about {
-    width: 100%;
-    float: left;
-    background-color: #d7c6bc;
-    padding: 80px;
-    margin-top: -250px;
-}
+    .about-me {
+        font-size: 10px;
+    }
 
-.about-me {
-    font-size: 10px;
-}
+    /*contact page responsiveness*/
 
-/*contact page responsiveness */
+    #title-2 {
+        font-size: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
 
-.contact-background {
+    #contact-title {
+        font-size: 80%;
+        font-family: 'Raleway', 'sans-serif';
+        font-weight: 900;
+        color: #1f1b1a;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+
+    .contact-background {
         width: 100%;
         height: 680px;
         background: url(../images/balloon-contact-page.webp) no-repeat center;
         background-size: cover;
     }
 
-#contact-title {
-        font-family: Raleway, sans-serif;
-        font-weight: 900;
-        color: #1f1b1a;
-        letter-spacing: 1px;
-        text-align: center;
+    #contact-title {
         height: 280px;
-    } 
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
     .container {
-        height: 200px;
+        height: 120px;
     }
- }
 
- /* for small screen sizes from 414px wide and up*/
+    .contact-map iframe {
+        width: 500px;
+    }
+}
 
-/*homepage */
+/*for small screen sizes from 576px wide*/
 
-@media screen and (max-width: 414px) {
+/*homepage responsiveness*/
 
-#main-image {
+@media screen and (max-width: 576px) {
+
+    #main-image {
         width: 100%;
-        height: 300px;
+        height: 350px;
     }
-    
-#menu {
-        font-size: 40%;
-        margin: 12px;
-        }
-   
-#title {
-       font-size: 150%;
-   }     
 
-#title-1 {
-       font-size: 140%;
+    #menu {
+        font-size: 65%;
+        margin: 10px;
+    }
+
+    #title-1 {
         float: left;
         margin-top: -95px;
         margin-left: 50px;
     }
 
-.click-section {
-        height: 1000px;
-        margin-bottom: 120px;
-        }
-
-    /*about page responsiveness */
-
-.about-section {
-    background-color: #d7c6bc;
-    background-size: 0%;
-    overflow: hidden;
-    padding: 200px 0;
-    margin: 10px;
-    box-sizing: border-box;
+    #quotebox {
+        font-size: 60%;
+        padding: 40px;
+        height: 150px;
+        margin-top: 50px;
     }
 
-.inner-about {
-    width: 100%;
-    float: left;
-    background-color: #d7c6bc;
-    padding: 60px;
-    margin-top: -250px;
+    .click-section {
+        height: 1100px;
+    }
+
+    .footer-bottom {
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    /*about page responsiveness*/
+
+    .about-section {
+        background-color: #d7c6bc;
+        background-size: 0%;
+        overflow: hidden;
+        padding: 200px 0;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .inner-about {
+        width: 100%;
+        float: left;
+        background-color: #d7c6bc;
+        padding: 80px;
+        margin-top: -250px;
+    }
+
+    .about-me {
+        font-size: 10px;
+    }
+
+    /*contact page responsiveness*/
+
+    .contact-background {
+        width: 100%;
+        height: 680px;
+        background: url(../images/balloon-contact-page.webp) no-repeat center;
+        background-size: cover;
+    }
+
+    #contact-title {
+        font-family: 'Raleway', 'sans-serif';
+        font-weight: 900;
+        color: #1f1b1a;
+        letter-spacing: 1px;
+        text-align: center;
+        height: 280px;
+    }
+
+    .container {
+        height: 200px;
+    }
 }
 
-.about-me {
-    font-size: 8px;
-}    
+/*for small screen sizes from 414px wide*/
 
-/*contact page responsiveness */
+/*homepage responsiveness*/
 
-.contact-background {
-    width: 100%;
-    height: 680px;
-    background: url(../images/balloon-contact-page.webp) no-repeat center;
-    background-size: cover;
+@media screen and (max-width: 414px) {
+
+    #main-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    #menu {
+        font-size: 40%;
+        margin: 12px;
+    }
+
+    #title {
+        font-size: 150%;
+    }
+
+    #title-1 {
+        font-size: 140%;
+        float: left;
+        margin-top: -95px;
+        margin-left: 50px;
+    }
+
+    .click-section {
+        height: 1000px;
+        margin-bottom: 120px;
+    }
+
+    /*about page responsiveness*/
+
+    .about-section {
+        background-color: #d7c6bc;
+        background-size: 0%;
+        overflow: hidden;
+        padding: 200px 0;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .inner-about {
+        width: 100%;
+        float: left;
+        background-color: #d7c6bc;
+        padding: 60px;
+        margin-top: -250px;
+    }
+
+    .about-me {
+        font-size: 8px;
+    }
+
+    /*contact page responsiveness*/
+
+    .contact-background {
+        width: 100%;
+        height: 680px;
+        background: url(../images/balloon-contact-page.webp) no-repeat center;
+        background-size: cover;
+    }
+
+    #contact-title {
+        font-family: 'Raleway', 'sans-serif';
+        font-weight: 900;
+        color: #1f1b1a;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-left: -25px;
+        margin-top: -55px;
+        height: 260px;
+    }
+
+    .container {
+        height: 200px;
+    }
+
+    .contact-map iframe {
+        width: 400px;
+    }
 }
 
-#contact-title {
-    font-family: Raleway, sans-serif;
-    font-weight: 900;
-    color: #1f1b1a;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-left: -25px;
-    margin-top: -55px;
-    height: 260px;
-} 
-.container {
-    height: 200px;
-}
+/*for small screen sizes from 375px wide (iPhone SE)*/
 
-.contact-map iframe {
-    width: 400px;
-}
-}
-
- /* for small screen sizes from 375px wide and up (iPhone SE)*/
-
-/*homepage */
+/*homepage responsiveness*/
 
 @media screen and (max-width: 375px) {
 
@@ -1039,55 +1067,57 @@ height: 1100px;
         margin-left: -282px;
         animation: image-grow 1.5s;
     }
-    
+
     @keyframes image-grow {
         from {
             transform: scale(0.2);
         }
+
         to {
             transform: scale(1);
         }
     }
+
     #menu {
         font-size: 35%;
         letter-spacing: 2px;
         margin-left: 25px;
-        }
+    }
 
     #main-image {
         height: 250px;
         width: 100%;
         background: url(../images/Cappadocia\,\ Turkey\ main\ image\(1\).webp) no-repeat center;
         background-size: cover;
-        }
+    }
 
     .quote {
         font-size: 40%;
         height: 10px;
         margin-left: -30px;
         margin-top: -50px;
-         }
+    }
 
-    .click-section{
+    .click-section {
         width: 100%;
-        display:flex;
+        display: flex;
         align-items: center;
         justify-content: center;
-        }
+    }
 
     .card {
-            width: 250px;
-            height: 250px;
-            display: inline-block;
-            border-radius: 30px;
-            box-sizing: border-box;
-            padding: 15px 30px;
-            justify-content: center;
-            cursor: pointer;
-            background-position: center;
-            background-size: cover;
-            margin-left: -5px;
-        }
+        width: 250px;
+        height: 250px;
+        display: inline-block;
+        border-radius: 30px;
+        box-sizing: border-box;
+        padding: 15px 30px;
+        justify-content: center;
+        cursor: pointer;
+        background-position: center;
+        background-size: cover;
+        margin-left: -5px;
+    }
 
     .social-icons {
         position: fixed;
@@ -1095,112 +1125,118 @@ height: 1100px;
         width: 100%;
         height: 130px;
         margin-left: -15px;
-        }
-        .social-icons ul li {
-            list-style: none;
-            margin: 0 8px;
     }
 
-/*about page responsiveness */
-
-.about-section {
-    background-color: #d7c6bc;
-    background-size: 30%;
-    overflow: hidden;
-    padding: 200px 0;
-    margin: 10px;
-    box-sizing: border-box;
+    .social-icons ul li {
+        list-style: none;
+        margin: 0 8px;
     }
 
-.inner-about {
-    width: 100%;
-    float: left;
-    background-color: #d7c6bc;
-    padding: 50px;
-    margin-top: -250px;
-}
+    /*about page responsiveness */
 
-.about-me {
-    font-size: 8px;
-    margin-top: -50px;
-}
-#about-us {
-    font-size: 90%;
-    margin-top: 20px;
-    height: 50px;
-}
+    .about-section {
+        background-color: #d7c6bc;
+        background-size: 30%;
+        overflow: hidden;
+        padding: 200px 0;
+        margin: 10px;
+        box-sizing: border-box;
+    }
 
-/*contact page responsiveness */
+    .inner-about {
+        width: 100%;
+        float: left;
+        background-color: #d7c6bc;
+        padding: 50px;
+        margin-top: -250px;
+    }
 
-.contact-background {
-    width: 100%;
-    height: 680px;
-    background: url(../images/balloon-contact-page.webp) no-repeat center;
-    background-size: cover;
-}
+    .about-me {
+        font-size: 8px;
+        margin-top: -50px;
+    }
 
-#title-2 {
-    font-size: 100%;
+    #about-us {
+        font-size: 90%;
+        margin-top: 20px;
+        height: 50px;
+    }
+
+    /*contact page responsiveness */
+
+    .contact-background {
+        width: 100%;
+        height: 680px;
+        background: url(../images/balloon-contact-page.webp) no-repeat center;
+        background-size: cover;
+    }
+
+    #title-2 {
+        font-size: 100%;
         float: left;
         margin-top: -20px;
         margin-left: -282px;
         animation: image-grow 1.5s;
+    }
+
+    #contact-title {
+        margin-top: 40px;
+        height: 40px;
+        margin-left: -60px;
+    }
+
+    .container {
+        height: 500px;
+    }
+
+    .contact-map iframe {
+        width: 375px;
+    }
 }
 
-#contact-title {
-    margin-top: 40px;
-    height: 40px;
-    margin-left: -60px;
-}
-    
-.container {
-    height: 500px;
-}
+/*for small screen sizes from 360px wide*/
 
-.contact-map iframe {
-    width: 375px;
-}
-}
-
-/* for small screen sizes from 360px wide and up*/
-
-/*homepage */
+/*homepage responsiveness*/
 
 @media screen and (max-width: 360px) {
 
- #menu {
+    #menu {
         font-size: 35%;
         letter-spacing: 2px;
         margin-left: 25px;
-        }
+    }
 
-#main-image {
+    #main-image {
         height: 250px;
         width: 100%;
         background: url(../images/Cappadocia\,\ Turkey\ main\ image\(1\).webp) no-repeat center;
         background-size: cover;
-        }
+    }
 
-.click-section {
+    .click-section {
         height: 1200px;
-        }
+    }
 
-    /*contact page responsiveness */
+    /*contact page responsiveness*/
 
-.contact-map iframe {
+    .contact-map iframe {
         width: 340px;
         margin-bottom: 25px;
-        }
+    }
 }
 
-/*media query for gallery page for small screen devices 480px */
+/*for gallery page for small screen devices 480px*/
 
 @media screen and (max-width:480px) {
-    .gallery-contain{
-        grid-template-columns: repeat(2,1fr);
-    }
-    .w-1, .w-2, .w-3, .w-4, .w-5 {
-        grid-column: span 4;
-    }
+    .gallery-contain {
+        grid-template-columns: repeat(2, 1fr);
     }
 
+    .w-1,
+    .w-2,
+    .w-3,
+    .w-4,
+    .w-5 {
+        grid-column: span 4;
+    }
+}

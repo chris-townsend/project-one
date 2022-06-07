@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,112 +9,103 @@
     <meta name="keywords" content="through the lens, photography, landscape photography, Chris Townsends photography">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Through the Lens</title>
-    </head>
+</head>
 
 <body>
-<!--Hero image of balloons-->
+    <!--Hero image of balloons-->
     <div class="contact-background">
-    <header>
-
-<!--Through the Lens title-->
-        <a href="index.html" aria-label="A clickable title that takes you back to the homepage">
-            <h1 id="title">Through the Lens</h1>
-        </a>
-<!--nav section of header-->
-        <nav>
-            <ul id="menu">
+        <header>
+            <!--Through the Lens title-->
+            <a href="index.html" aria-label="A clickable title that takes you back to the homepage">
+                <h1 id="title">Through the Lens</h1>
+            </a>
+            <!--nav section of header-->
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="contact.html" aria-label="Link to contact us page" class="navbar">Contact</a>
+                    </li>
+                    <li>
+                        <a href="about.html" aria-label="Link to about us page">About</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" aria-label="Link to gallery page">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="index.html" aria-label="Link to homepage">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <!--contact us header-->
+            <h2 id="title-2">Contact Us</h2>
+            <h3 id="contact-title">Want to get in touch? Please fill out the form below:</h3>
+        </section>
+        <!--contact us form structure-->
+        <div class="container">
+            <form>
+                <div class="connect">
+                    <div class="contact-box">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name*</label>
+                    </div>
+                    <div class="contact-box">
+                        <input type="number" id="number" required>
+                        <label for="number">Phone Number</label>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <input type="email" id="email" required>
+                    <label for="email">Email Address*</label>
+                </div>
+                <div class="contact-box">
+                    <textarea id="message" style="height:150px" required></textarea>
+                    <label for="message">Leave us a Message*</label>
+                </div>
+                <button type="submit" aria-label="button to send the form"><span>Submit</span></button>
+            </form>
+        </div>
+    </div>
+    <!--find us section with google map embedded-->
+    <h4>Find Us:</h4>
+    <div class="contact-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577227.9213612373!2d-5.176347324546277!3d50.19062720207099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486b107cd55a1a75%3A0x616347ef951d07b4!2sTruro!5e0!3m2!1sen!2suk!4v1654338630603!5m2!1sen!2suk"
+            title="A embed Google map using iframe" width="1250" height="350" style="border:0;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!--footer-->
+    <footer>
+        <!--social links-->
+        <div class="social-icons">
+            <ul>
                 <li>
-                <a href="contact.html" aria-label="Link to contact us page" class="navbar">Contact</a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Vist our Facebook page (opens in a new tab)"
+                        class="fa-brands fa-facebook-square"></a>
                 </li>
                 <li>
-                <a href="about.html" aria-label="Link to about us page">About</a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Vist our Instagram page (opens in a new tab)"
+                        class="fa-brands fa-instagram-square"></a>
                 </li>
                 <li>
-                <a href="gallery.html" aria-label="Link to gallery page">Gallery</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Vist our Twitter page (opens in a new tab)" class="fa-brands fa-twitter-square"></a>
                 </li>
                 <li>
-                <a href="index.html" aria-label="Link to homepage">Home</a>
+                    <a href="https://github.com/chris-townsend" target="_blank" rel="noopener"
+                        aria-label="Vist my Github page (opens in a new tab)" class="fa-brands fa-github-square"></a>
                 </li>
             </ul>
-        </nav>
-    </header>
-
-    <section>
-<!--contact us header-->
-    <h2 id ="title-2">Contact Us</h2>
-    <h3 id="contact-title">Want to get in touch? Please fill out the form below:</h3>
-</section>
-<!--contact us form structure-->
-    <div class="container">
-    <form>
-    <div class="connect">
-            
-    <div class="contact-box">
-        <input type="text" id="name" required>
-        <label for ="name">Your Name*</label>
-    </div>
-        
-    <div class="contact-box">
-        <input type="number" id="number" required>
-        <label for ="number">Phone Number</label>
-                
-    </div>
-    </div>
-        
-    <div class="contact-box">
-        <input type="email" id="email" required>   
-        <label for ="email">Email Address*</label>
-    </div>
-
-    <div class="contact-box">
-        <textarea id ="message" style="height:150px" required></textarea>
-        <label for ="message">Leave us a Message*</label>
-    </div>
-
-     <button type="submit" aria-label="button to send the form"><span>Submit</span></button>
-   </form>
-    </div>
-    </div>
-
-<!--find us section with google map embedded-->
-    <h4>Find Us:</h4>
-     <div class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577227.9213612373!2d-5.176347324546277!3d50.19062720207099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486b107cd55a1a75%3A0x616347ef951d07b4!2sTruro!5e0!3m2!1sen!2suk!4v1654338630603!5m2!1sen!2suk"
-         title="A embed Google map using iframe" width="1250" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-         
-     </div>
-<!--footer-->
-    <footer>
-<!--social links-->
-    <div class= "social-icons">
-        <ul>
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                 aria-label="Vist our Facebook page (opens in a new tab)" class="fa-brands fa-facebook-square"></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                 aria-label="Vist our Instagram page (opens in a new tab)" class="fa-brands fa-instagram-square"></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                 aria-label="Vist our Twitter page (opens in a new tab)" class="fa-brands fa-twitter-square"></a>
-            </li>
-            <li>
-            <a href="https://github.com/chris-townsend" target="_blank" rel="noopener"
-             aria-label="Vist my Github page (opens in a new tab)" class="fa-brands fa-github-square"></a>
-        </li>
-    </ul>
-    </div>
-
-<!--copyright info-->
-    <div class="footer-bottom">
-        &copy; Through the Lens | Designed by Chris Townsend
-    </div>
-</footer>
- 
-<!--font awesome script-->
+        </div>
+        <!--copyright info-->
+        <div class="footer-bottom">
+            &copy; Through the Lens | Designed by Chris Townsend
+        </div>
+    </footer>
+    <!--font awesome script-->
     <script src="https://kit.fontawesome.com/9932e8fab5.js" crossorigin="anonymous"></script>
-    </body>
-
+</body>
 </html>
