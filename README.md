@@ -1,14 +1,30 @@
 <h1 align="center">Portfolio Project One - HTML/CSS Essentials</h1>
 
-[View the live project here.](https://codeinstitute.net)
+## Live Site
+[Through the Lens - Landscape Photography](https://chris-townsend.github.io/project-one/index.html)
 
-This is the main marketing website for Through the Lens Landscape Photography. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users and buyers of Landscape prints.
+## Repository
+[https://github.com/chris-townsend/project-one](https://github.com/chris-townsend/project-one)
 
-<h2 align="center"><img src=    ></h2>
+## Objective
+In this project I intend to provide a portfolio style website to showcase some of the best Landscape photography prints. The main objective is to demonstrate competency in HTML and CSS. I hope to provide an emotive, static front end application which is clearly laid out and easy to navigate. 
+
+**The needs within this project are not genuine and is made only for the purpose of completing my Code Institute PP1 project**
+
+## Brief
+- The goal of the website is to showcase Chris's landscape photography prints with the potential for users to contact the publisher if neccesary by using the contact form provided
+- The website will have an about page which contains infomation about the author and also a team section
+- Display a small gallery
+- Links to wiki pages on how the website was created using HTML, CSS & GitHub 
+- Links to social media sites
+
+
+![Am I responsive](./assets/images/am-i-responsive.webp)
+
 
 ## User Experience (UX)
 
--   ### User stories
+-   ### User Requirements
 
     -   #### First Time Visitor Goals
 
@@ -18,14 +34,13 @@ This is the main marketing website for Through the Lens Landscape Photography. I
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have by using the contact page.
+        2. As a Returning Visitor, I want to find community links.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+        1. As a Frequent User, I want to check to see if there has been any new added photos.
+       
 
 -   ### Design
     -   #### Colour Scheme
