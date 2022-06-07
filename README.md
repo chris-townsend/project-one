@@ -3,7 +3,6 @@
 ## Live Site
 [Through the Lens - Landscape Photography](https://chris-townsend.github.io/project-one/index.html)
 
-**
 
 ## Repository
 [https://github.com/chris-townsend/project-one](https://github.com/chris-townsend/project-one)
@@ -128,7 +127,12 @@ In this project I intend to provide a portfolio style website to showcase some o
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) -
+![W3C Validator Index page](./assets/images/w3c-index.webp)
+![W3C Validator Gallery page](./assets/images/w3c-gallery.webp)
+![W3C Validator About page](./assets/images/w3c-about.webp)
+![W3C Validator Contact page](./assets/images/w3c-contact.webp)
+
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
 ### Testing User Stories from User Experience (UX) Section
