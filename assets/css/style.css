@@ -964,11 +964,11 @@ a, i {
     }
 }
 
-/*for small screen sizes from 414px wide*/
+/*for small screen sizes from 415px wide*/
 
 /*homepage responsiveness*/
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 447px) {
 
     #main-image {
         width: 100%;
