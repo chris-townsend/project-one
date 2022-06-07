@@ -213,13 +213,13 @@ nav.bar {
     transition: 0.8s ease-in;
 }
 
-.quote h6 {
+.quote h3 {
     font-family: 'Libre Franklin', 'sans-serif';
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .quote p {
-    font-family: 'Libe Franklin', 'sans-serif';
+    font-family: 'Libre Franklin', 'sans-serif';
 }
 
 /* 3 click sections to gallery- peaks/coast/trees */
