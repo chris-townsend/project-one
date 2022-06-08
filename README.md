@@ -85,15 +85,18 @@ In this project I intend to provide a portfolio style website to showcase some o
 
 -   Responsive on most device sizes
 
-The design is made with mobile first in mind, the media queries in the CSS file are done in a way to keep the structure and responsiveness in place as the screen size becomes smaller. 
+The design is made with mobile first in mind, the media queries in the CSS file are done in a way to keep the structure and responsiveness in place as the screen size decreases. 
 
-I have used [Responsinator](http://www.responsinator.com/?url=chris-townsend.github.io%2Fproject-one%2Findex.html) to check responsiveness on different devices. As you can see, the website is responsive on all devices available inluding Ios devices. I have also added extra media queries for screen sizes 360px wide. 
+I have used [Responsinator](http://www.responsinator.com/) to check the responsiveness on different devices. The site is responsive on all devices available inluding ios devices. I have also added extra media queries for screen sizes 360px wide. 
 
+ - [Responsinator Results](http://www.responsinator.com/?url=chris-townsend.github.io%2Fproject-one%2Findex.html)
+#
 -   Interactive elements
 
-I have tried to make the majority of the website **interative**. When you first arrive on the site the main headings "Through the Lens and "Landscape Photography" flash up and grow on the screen over 1.5 seconds. This has been accomplished by using *keyframes* with *image-grow*.
+I have tried to make the majority of the site **interative**. When you first arrive on the homepage, the main headings "Through the Lens and "Landscape Photography" flash up and grow on the screen over 1.5 seconds. This has been accomplished by using *keyframes* with *image-grow*.
 
 The navigation bar at the top of the page has been made **interative** by using the *hover* function, this allows users to easily navigate the site.
+
 ![nav-bar](./assets/images/nav-bar.webp)
 
 The quote box below the hero image on the homepage has added **animation**, it grows from a scale of 0.2 to 1 over 8 seconds. I made the **animation** to grow over 8 seconds so that it gives readers a chance to scroll down the page before the **animation** is over. 
@@ -103,7 +106,12 @@ The quote box below the hero image on the homepage has added **animation**, it g
 Below the quote section on the homepage is three gallery cards which take you to the gallery page when clicked. When you *hover* over the cards they become **interative**, this has been accomplished by using the *hover*: *transform* function.
 ![gallery-cards](./assets/images/gallery-cards.webp)
 
-The social media icons that have been fixed to the bottom of the screen have been made **interative** by using the *hover*: *transform* function. I have also added a background colour for when each icon is hovered over. Each icon has been assigned its own personal color by using [Social Colours](https://materialui.co/socialcolors/).
+The social media icons that have been fixed to the bottom of the screen have been made **interative** by using the *hover*: *transform* function. I have used a background colour and box shadow for when an icon is hovered over. Each icon has been assigned its own personal color by using [Social Colours](https://materialui.co/socialcolors/).
+![Facebook Icon](./assets/images/facebook.webp)
+![Instagram Icon](./assets/images/instagram.webp)
+![Twittter Icon](./assets/images/twitter.webp)
+![GitHub Icon](./assets/images/github.webp)
+
 
 The headings for the gallery, about and contact page have been made **interactive**. Similar to the main heading, I have used the *image-grow* *keyframes* function. 
 ![about-heading-half](./assets/images/about-heading.webp)
