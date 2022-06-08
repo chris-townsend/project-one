@@ -213,6 +213,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
 ## Deployment
+***
 
 ### GitHub Pages
 
@@ -220,11 +221,13 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 ![GitHub Repository](./assets/images/my-repository.webp)
+
 2. At the top of the Repository, locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/)
 ![Settings Button](./assets/images/click-settings.webp)    
+
 3. Select "Pages" from the menu on the left-hand side.
-![Pages Section](./assets/images/pages-column.webp)
+
+    ![Pages Section](./assets/images/pages-column.webp)
 
 4. Under "Source", click the dropdown bar and select "Main Branch" and click save.
 ![Main Branch](./assets/images/source-branch.webp)
