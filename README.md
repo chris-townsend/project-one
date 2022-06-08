@@ -54,7 +54,7 @@ In this project I intend to provide a portfolio style website to showcase some o
     -   #### Colour Scheme
         -   The two main colours used are Black and white with the homepage and contact page containing a hero image.
 
-    I kept the colour scheme neutral to give the website a formal and professional look. The absence of color allows concentrating on the subject without any distracting elements. 
+    I kept the colour scheme neutral to give the website a formal and professional look. The absence of any color allows better focus on the main content without any distracting elements. 
 
     ***
     -   #### Typography
@@ -93,34 +93,37 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 #
 -   Interactive elements
 
-I have tried to make the majority of the site **interative**. When you first arrive on the homepage, the main headings "Through the Lens and "Landscape Photography" flash up and grow on the screen over 1.5 seconds. This has been accomplished by using *keyframes* with *image-grow*.
+1. I have tried to make the majority of the site **interative**. When you first arrive on the homepage, the main headings "Through the Lens and "Landscape Photography" flash up and grow on the screen over 1.5 seconds. This has been accomplished by using *keyframes* with *image-grow*.
 
-The navigation bar at the top of the page has been made **interative** by using the *hover* function, this allows users to easily navigate the site.
 
-![nav-bar](./assets/images/nav-bar.webp)
+2. The navigation bar at the top of the page has been made **interative** by using the *hover* function, this allows users to easily navigate the site.
 
-The quote box below the hero image on the homepage has added **animation**, it grows from a scale of 0.2 to 1 over 8 seconds. I made the **animation** to grow over 8 seconds so that it gives readers a chance to scroll down the page before the **animation** is over. 
+    ![nav-bar](./assets/images/nav-bar.webp)
+
+3. The quote box below the hero image on the homepage has added **animation**, it grows from a scale of 0.2 to 1 over 8 seconds. I made the **animation** to grow over 8 seconds so that it gives readers a chance to scroll down the page before the **animation** is over. 
 ![quote-small](./assets/images/quote-small.webp)
 ![quote-big](./assets/images/quote-big.webp)
 
-Below the quote section on the homepage is three gallery cards which take you to the gallery page when clicked. When you *hover* over the cards they become **interative**, this has been accomplished by using the *hover*: *transform* function.
+4. Below the quote section on the homepage is three gallery cards which take you to the gallery page when clicked. When you *hover* over the cards they become **interative**, this has been accomplished by using the *hover*: *transform* function.
 ![gallery-cards](./assets/images/gallery-cards.webp)
 
-The social media icons that have been fixed to the bottom of the screen have been made **interative** by using the *hover*: *transform* function. I have used a background colour and box shadow for when an icon is hovered over. Each icon has been assigned its own personal color by using [Social Colours](https://materialui.co/socialcolors/).
+
+5. The social media icons that have been fixed to the bottom of the screen have been made **interative** by using the *hover*: *transform* function. I have used a background colour and box shadow for when an icon is hovered over. Each icon has been assigned its own personal color by using [Social Colours](https://materialui.co/socialcolors/).
 ![Facebook Icon](./assets/images/facebook.webp)
 ![Instagram Icon](./assets/images/instagram.webp)
 ![Twittter Icon](./assets/images/twitter.webp)
 ![GitHub Icon](./assets/images/github.webp)
 
 
-The headings for the gallery, about and contact page have been made **interactive**. Similar to the main heading, I have used the *image-grow* *keyframes* function. 
+6. The headings for the gallery, about and contact page have been made **interactive**. Similar to the main heading, I have used the *image-grow* *keyframes* function. 
 ![about-heading-half](./assets/images/about-heading.webp)
 ![about-heading-full](./assets/images/about-heading-full.webp)
 
-I wanted to make my gallery images stand out by adding **animation**. I accomplished this by using the *hover* and *transition* function. When you *hover* over an image it eases in over 0.4 seconds and when you unselect, it goes back to its original state. I used the *transition* ease-in-out for this method.
+
+7. I wanted to make my gallery images stand out by adding **animation**. I accomplished this by using the *hover* and *transition* function. When you *hover* over an image it eases in over 0.4 seconds and when you unselect, it goes back to its original state. I used the *transition* ease-in-out for this method.
 ![gallery-page](./assets/images/gallery-page.webp)
 
-My contact page has been made **interative** so that when you input your details into the form, the headings get pushed out of the box and stay above the input boxes. This was accomplished by using the *hover* and *transition* function. I have added extra style to the submit button by adding in an arrow when you *hover* over it. The form will come up with a "Please fill out this feild" message when it hasn't been filled in correctly. This means that an email address is *required* before the form can be submitted. 
+8. My contact page has been made **interative** so that when you input your details into the form, the headings get pushed out of the box and stay above the input boxes. This was accomplished by using the *hover* and *transition* function. I have added extra style to the submit button by adding in an arrow when you *hover* over it. The form will come up with a "Please fill out this feild" message when it hasn't been filled in correctly. This means that an email address is *required* before the form can be submitted. 
 ![form-interative](./assets/images/form-interative.webp)
 ![form-please-fill-out](./assets/images/please-fill-contact.webp)
 
