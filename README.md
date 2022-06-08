@@ -54,7 +54,11 @@ In this project I intend to provide a portfolio style website to showcase some o
     -   #### Colour Scheme
         -   The two main colours used are Black and white with the homepage and contact page containing a hero image.
 
+
+
     I kept the colour scheme neutral to give the website a formal and professional look. The absence of any color allows better focus on the main content without any distracting elements. 
+
+    ![Colour-scheme](./assets/images/colour-way.webp)
 
     ***
     -   #### Typography
