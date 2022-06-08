@@ -79,11 +79,38 @@ In this project I intend to provide a portfolio style website to showcase some o
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
 
+***    
+
 ## Features
 
--   Responsive on all device sizes
+-   Responsive on most device sizes
+
+The design is made with mobile first in mind, the media queries in the CSS file are done in a way to keep the structure and responsiveness in place as the screen size becomes smaller. 
+
+I have used [Responsinator](http://www.responsinator.com/?url=chris-townsend.github.io%2Fproject-one%2Findex.html) to check responsiveness on different devices. As you can see, the website is responsive on all devices available inluding Ios devices. I have also added extra media queries for screen sizes 360px wide. 
 
 -   Interactive elements
+
+I have tried to make the majority of the website **interative**. When you first arrive on the site the main headings "Through the Lens and "Landscape Photography" flash up and grow on the screen over 1.5 seconds. This has been accomplished by using *keyframes* with *image-grow*.
+
+The navigation bar at the top of the page has been made **interative** by using the *hover* function, this allows users to easily navigate the site.
+
+The quote box below the hero image on the homepage has added **animation**, it grows from a scale of 0.2 to 1 over 8 seconds. I made the **animation** to grow over 8 seconds so that it gives readers a chance to scroll down the page before the **animation** is over. 
+
+Below the quote section on the homepage is three gallery cards which take you to the gallery page when clicked. When you *hover* over the cards they become **interative**, this has been accomplished by using the *hover*: *transform* function.
+
+The social media icons that have been fixed to the bottom of the screen have been made **interative** by using the *hover*: *transform* function. I have also added a background colour for when each icon is hovered over. Each icon has been assigned its own personal color by using [Social Colours](https://materialui.co/socialcolors/).
+
+The headings for the gallery, about and contact page have been made **interactive**. Similar to the main heading, I have used the *image-grow* *keyframes* function. 
+
+I wanted to make my gallery images stand out by adding **animation**. I accomplished this by using the *hover* and *transition* function. When you *hover* over an image it eases in over 0.4 seconds and when you unselect, it goes back to its original state. I used the *transition* ease-in-out for this method.
+
+My contact page has been made **interative** so that when you input your details into the form, the headings get pushed out of the box and stay above the input boxes. This was accomplished by using the *hover* and *transition* function. I have added extra style to the submit button by adding in an arrow when you *hover* over it. The form will come up with a "Please fill out this feild" message when it hasn't been filled in correctly. This means that an email address is *required* before the form can be submitted. 
+
+
+- *the contact form is **not currently active** as it requires languages I have yet to learn. The form is there to demonstrate the html structure and CSS style*
+
+***
 
 ## Technologies Used
 
