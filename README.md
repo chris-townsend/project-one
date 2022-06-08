@@ -20,8 +20,8 @@ In this project I intend to provide a portfolio style website to showcase some o
 - The goal of the website is to showcase Chris's landscape photography prints with the potential for users to contact the publisher if neccesary by using the contact form provided
 - The website will have an about page which contains infomation about the author and also a team section
 - Display a small gallery
-- Links to wiki pages on how the website was created using HTML, CSS & GitHub 
-- Links to social media sites
+- Links to wiki pages to show information on how the website was created by using HTML, CSS & GitHub 
+- Fixed social media links at the bottom of the screen to attract returning viewers
 
 
 ![Am I responsive](./assets/images/am-i-responsive.webp)
@@ -42,17 +42,19 @@ In this project I intend to provide a portfolio style website to showcase some o
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have by using the contact page.
-        2. As a Returning Visitor, I want to find community links.
+        2. As a Returning Visitor, I want to find social links.
 
     -   #### Frequent User Goals
 
-        1. As a Frequent User, I want to check to see if there has been any new added photos.
+        1. As a Frequent User, I want to check to see if there has been any new images uploaded.
        
     ***
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Black and white.
+        -   The two main colours used are Black and white with the homepage and contact page containing a hero image.
+
+    I kept the colour scheme neutral to give the website a formal and professional look. The absence of color allows concentrating on the subject without any distracting elements. 
 
     ***
     -   #### Typography
@@ -127,13 +129,19 @@ In this project I intend to provide a portfolio style website to showcase some o
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) -
-![W3C Validator Index page](./assets/images/w3c-index.webp)
-![W3C Validator Gallery page](./assets/images/w3c-gallery.webp)
-![W3C Validator About page](./assets/images/w3c-about.webp)
-![W3C Validator Contact page](./assets/images/w3c-contact.webp)
+-   [W3C HTML Markup Validator](https://validator.w3.org/) Results
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+![W3C HTML Validator Index page](./assets/images/html-validator-index.webp)
+![W3C HTML Validator Gallery page](./assets/images/html-validator-gallery.webp)
+![W3C HTML Validator About page](./assets/images/html-validator-about.webp)
+![W3C HTML Validator Contact page](./assets/images/html-validator-contact.webp)
+
+-   [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/) Results
+
+![W3C CSS Validator Index page](./assets/images/w3c-index.webp)
+![W3C CSS Validator Gallery page](./assets/images/w3c-gallery.webp)
+![W3C CSS Validator About page](./assets/images/w3c-about.webp)
+![W3C CSS Validator Contact page](./assets/images/w3c-contact.webp)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -211,12 +219,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
+![GitHub Repository](./assets/images/my-repository.webp)
+2. At the top of the Repository, locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/)
+![Settings Button](./assets/images/click-settings.webp)    
+3. Select "Pages" from the menu on the left-hand side.
+![Pages Section](./assets/images/pages-column.webp)
+
+4. Under "Source", click the dropdown bar and select "Main Branch" and click save.
+![Main Branch](./assets/images/source-branch.webp)
+
+5. The page will automatically refresh and will take a short time to publish the page. The page should turn green once the site has been deployed.
+![Refresh](./assets/images/ready-to-publish.webp)
+
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+![Published URL](./assets/images/your-site-is-published.webp)
 
 ### Forking the GitHub Repository
 
