@@ -77,19 +77,33 @@ In this project I intend to provide a portfolio style website to showcase some o
 
 *   ### Wireframes
 
-    -   Home Page Wireframe -
+    -   Home Page Wireframe for desktop -
     ![Homepage Wireframe](./assets/images/homepage-wireframe.webp)
 
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    - Gallery Page Wireframe - 
+    - Gallery Page Wireframe for desktop - 
     ![title-grow](./assets/images/gallery-wireframe.webp)
 
-    - About Us Page Wireframe - 
+    - About Us Page Wireframe for desktop - 
     ![About Page Wireframe](./assets/images/about-wireframe.webp)
 
-    -   Contact Us Page Wireframe -
+    -   Contact Us Page Wireframe for desktop -
     ![Contact Page Wireframe](./assets/images/contact-wireframe.webp)
+
+    -   Mobile Wireframe Home page -
+
+     ![Mobile Home Wireframe](./assets/images/home-mobile.webp)
+
+      -   Mobile Wireframe Gallery page -
+
+     ![Mobile Gallery Wireframe](./assets/images/gallery-mobile.webp)
+
+      -   Mobile Wireframe About page -
+
+     ![Mobile About Wireframe](./assets/images/about-mobile.webp)
+
+      -   Mobile Wireframe Contact page -
+      
+     ![Mobile Contact Wireframe](./assets/images/contact-mobile.webp)
 
 ***    
 
