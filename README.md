@@ -3,6 +3,7 @@
 ## Live Site
 [Through the Lens - Landscape Photography](https://chris-townsend.github.io/project-one/index.html)
 
+#
 
 ## Repository
 [https://github.com/chris-townsend/project-one](https://github.com/chris-townsend/project-one)
@@ -10,6 +11,7 @@
 ***
 
 ## Objective
+#
 In this project I intend to provide a portfolio style website to showcase some of the best Landscape photography prints. The main objective is to demonstrate competency in HTML and CSS. I hope to provide an emotive, static front end application which is clearly laid out and easy to navigate. 
 
 **The needs within this project are not genuine and is made only for the purpose of completing my Code Institute PP1 project**
@@ -17,6 +19,7 @@ In this project I intend to provide a portfolio style website to showcase some o
 ***
 
 ## Brief
+#
 - The goal of the website is to showcase Chris's landscape photography prints with the potential for users to contact the publisher if neccesary by using the contact form provided
 - The website will have an about page which contains infomation about the author and also a team section
 - Display a small gallery
@@ -30,6 +33,7 @@ In this project I intend to provide a portfolio style website to showcase some o
 
 
 ## User Experience (UX)
+#
 
 -   ### User Requirements
 
@@ -51,8 +55,10 @@ In this project I intend to provide a portfolio style website to showcase some o
     ***
 
 -   ### Design
-    -   #### Colour Scheme
-        -   The two main colours used are Black and white with the homepage and contact page containing a hero image.
+#
+-   #### Colour Scheme
+    
+     -   The two main colours used are Black and white with the homepage and contact page containing a hero image.
 
 
 
@@ -62,6 +68,7 @@ In this project I intend to provide a portfolio style website to showcase some o
 
     ***
     -   #### Typography
+    #
     The fonts are imported into the CSS file from *[Google Fonts](https://fonts.google.com/)* 
     - The **Raleway** font is the main font used throughout the whole website with **Sans Serif** as the fallback font in case for any reason the font isn't being imported into the site correctly. **Raleway** is an elegent **sans-serif** typeface family which makes the text look bold and personable.
     ![Font-Raleway](./assets/images/font-raleway.webp)
@@ -71,25 +78,27 @@ In this project I intend to provide a portfolio style website to showcase some o
     ***
          
     -   #### Imagery
-        -   Imagery is important through out the website, especially on the homepage and gallery page. The large, background hero image is designed to be striking and catch the user's attention when they first vist the site. It has a modern and bright aesthetic. All of the images have been compressed using *[Compressor.io](https://compressor.io/)* to reduce size and load times.
+    #
+    -   Imagery is important through out the website, especially on the homepage and gallery page. The large, background hero image is designed to be striking and catch the user's attention when they first vist the site. It has a modern and bright aesthetic. All of the images have been compressed using *[Compressor.io](https://compressor.io/)* to reduce size and load times.
     
     ***
 
 *   ### Wireframes
+#
 
-    -   Home Page Wireframe for desktop -
+-   Home Page Wireframe for desktop -
     ![Homepage Wireframe](./assets/images/homepage-wireframe.webp)
 
-    - Gallery Page Wireframe for desktop - 
+- Gallery Page Wireframe for desktop - 
     ![title-grow](./assets/images/gallery-wireframe.webp)
 
-    - About Us Page Wireframe for desktop - 
+- About Us Page Wireframe for desktop - 
     ![About Page Wireframe](./assets/images/about-wireframe.webp)
 
-    -   Contact Us Page Wireframe for desktop -
+-   Contact Us Page Wireframe for desktop -
     ![Contact Page Wireframe](./assets/images/contact-wireframe.webp)
 
-    -   Mobile Wireframe Home page -
+-   Mobile Wireframe Home page -
 
      ![Mobile Home Wireframe](./assets/images/home-mobile.webp)
 
@@ -102,13 +111,13 @@ In this project I intend to provide a portfolio style website to showcase some o
      ![Mobile About Wireframe](./assets/images/about-mobile.webp)
 
       -   Mobile Wireframe Contact page -
-      
+
      ![Mobile Contact Wireframe](./assets/images/contact-mobile.webp)
 
 ***    
 
 ## Features
-
+#
 -   Responsive on most device sizes
 
 The design is made with mobile first in mind, the media queries in the CSS file are done in a way to keep the structure and responsiveness in place as the screen size decreases. 
@@ -151,6 +160,7 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 ![gallery-page](./assets/images/gallery-page.webp)
 
 8. My contact page has been made **interative** so that when you input your details into the form, the headings get pushed out of the box and stay above the input boxes. This was accomplished by using the *hover* and *transition* function. I have added extra style to the submit button by adding in an arrow when you *hover* over it. The form will come up with a "Please fill out this feild" message when it hasn't been filled in correctly. This means that an email address is *required* before the form can be submitted. 
+
 ![form-interative](./assets/images/form-interative.webp)
 ![form-please-fill-out](./assets/images/please-fill-contact.webp)
 ![button-arrow](./assets/images/button-arrow.webp)
@@ -158,48 +168,50 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 - *the contact form is **not currently active** as it requires languages I have yet to learn. The form is there to demonstrate the html structure and CSS style*
 
 ***
+## Future Features
+#
+- Make the form active on the contact page - The form on the contact page currently does not send any information. The main purpose of my first project is to use CSS and HTML so I have not yet learned about creating the necessary scripting behind the form. The 'action' and 'method' attributes have been removed to prevent any issue with errors.
 
-## Technologies Used
+- A blog page to the site - This would mean revamping the site and adding another page and heading to the nav bar, this gives another reason to attract more users to the site. 
+
+- More gallery pages - If I had more time I would like to of added individual gallery pages for peaks, coast and trees instead of directing you to the same gallery page.
+
+- An e-commerce shop section where landscape prints can be bought.
 
 ### Languages Used
+#
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### Frameworks, Libraries & Programs Used
+#
 
-- [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the wireframes during the design process.
+- [Balsamiq:](https://balsamiq.com/) - Balsamiq was used to create the wireframes during the design process.
 
-- [Pixlr:](https://pixlr.com/x/)
-    - Pixlr was used to resize and change the format of my images.
+- [Pixlr:](https://pixlr.com/x/) - Pixlr was used to resize and change the format of my images.
 
-- [TinyPNG:](https://tinypng.com/)
-    - All images within the project have been processed through their free compression tool.
+- [Coolors:](https://coolors.co/) - Coolors was used to pick a colour scheme and check contrast. 
 
-- [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+- [TinyPNG:](https://tinypng.com/) - All images within the project have been processed through their free compression tool.
 
-- [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Raleway' and 'Caveat' font into the style.css file which is used on all pages throughout the project.
+- [Hover.css:](https://ianlunn.github.io/Hover/) - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 
-- [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+- [Google Fonts:](https://fonts.google.com/) - Google fonts were used to import the 'Raleway' and 'Caveat' font into the style.css file which is used on all pages throughout the project.
 
-- [Google DevTools:](https://developer.chrome.com/docs/devtools/)
-    - Once the website was made to a basic deployment level, Google DevTools was used frequently to resize objects within the site, very helpful for making my website responsive.
+- [Font Awesome:](https://fontawesome.com/) - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 
-- [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Google DevTools:](https://developer.chrome.com/docs/devtools/) - Once the website was made to a basic deployment level, Google DevTools was used frequently to resize objects within the site, very helpful for making my website responsive.
 
-- [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
+- [Git](https://git-scm.com/) - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-- [W3C Markup Validator:](https://validator.w3.org/)
-    - This site was used to ensure that my HTML and CSS was error free. I had to push my code to ensure it was updated and then add the URL of the website to the address bar which then checked for errors or warnings.
+- [GitHub:](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
+
+- [W3C Markup Validator:](https://validator.w3.org/) - This site was used to ensure that my HTML and CSS was error free. I had to push my code to ensure it was updated and then add the URL of the website to the address bar which then checked for errors or warnings.
 
 
 ## Testing
+#
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -218,6 +230,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ![W3C CSS Validator Contact page](./assets/images/w3c-contact.webp)
 
 ### Testing User Stories from User Experience (UX) Section
+#
 
 -   #### First Time Visitor Goals
 
@@ -265,6 +278,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. There is a "Submit" button to the bottom of the input field. This is located close to the field and can easily be distinguished. When you hover over the button some arrows appear to acknowedge you are about to submit the form.
 
 ### Further Testing
+#
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhoneX & Samsung Galaxy S21
@@ -272,6 +286,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
+#
 
 -   On some small mobile devices the contact map pushes the size of screen out more than any of the other content on the page.
     -   A white gap can be seen to the right and above the map.
@@ -317,6 +332,7 @@ By forking the GitHub Repository you can make a copy of the original repository 
 ![GitHub Fork](./assets/images/github-fork.webp)
 
 ### Making a Local Clone
+#
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 ![GitHub Repository](./assets/images/my-repository.webp)
@@ -336,29 +352,30 @@ By forking the GitHub Repository you can make a copy of the original repository 
 
 7. Press Enter. Your local clone will be created.
 
-```
-
 ## Credits
+***
 
 ### Code
+#
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
+#
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
 ### Media
+#
 
--   All Images were created by the developer.
+The Images used across my website have been taken from : 
+
+-  [Unsplash](https://unsplash.com/)
+
+- [Pexels](https://www.pexels.com/)
 
 ### Acknowledgements
+#
 
 -   My Mentor for continuous helpful feedback.
 
