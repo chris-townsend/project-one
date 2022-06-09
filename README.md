@@ -288,10 +288,9 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 
 -   #### Returning Visitor Goals
 
-
     1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
+        1. The navigation bar clearly highlights the "Contact" Page.
         2. Here they can fill out the form on the page or alternatively they can message the organisation on social media.
         3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's Github.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
@@ -299,8 +298,6 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
      2. As a Returning Visitor, I want to see where the location is based.
          1. A contact map is easily accessable by clicking on the contact header on the navigation bar and scrolling to just below the contact form.
         
-       
-
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there has been any new photos recently added.
@@ -311,7 +308,7 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 
         1. The user would already be comfortable with the website layout and can easily click the contact link from the homepage and at the bottom of the page is a google map.
 
-        2. There is a "Submit" button to the bottom of the input field. This is located close to the field and can easily be distinguished. When you hover over the button some arrows appear to acknowedge you are about to submit the form.
+        2. On the contact page there is a form which they can fill out, There is a "Submit" button to the bottom of the input field. This is located close to the field and can easily be distinguished. When you hover over the button some arrows appear to acknowedge you are about to submit the form.
 
 ### Further Testing
 #
