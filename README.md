@@ -217,21 +217,42 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 ## Testing
 #
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The results are shown below:
 
 -   [W3C HTML Markup Validator](https://validator.w3.org/) Results
-
+### Homepage
 ![W3C HTML Validator Index page](./assets/images/html-validator-index.webp)
+### Gallery Page
 ![W3C HTML Validator Gallery page](./assets/images/html-validator-gallery.webp)
+### About Page
 ![W3C HTML Validator About page](./assets/images/html-validator-about.webp)
+### Contact Page
 ![W3C HTML Validator Contact page](./assets/images/html-validator-contact.webp)
 
 -   [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/) Results
-
+### Homepage
 ![W3C CSS Validator Index page](./assets/images/w3c-index.webp)
+### Gallery Page
 ![W3C CSS Validator Gallery page](./assets/images/w3c-gallery.webp)
+### About Page
 ![W3C CSS Validator About page](./assets/images/w3c-about.webp)
+### Contact Page
 ![W3C CSS Validator Contact page](./assets/images/w3c-contact.webp)
+
+I have run the entire website through Google Chrome's lighthouse audit application and the results are shown below:
+
+- Desktop
+### Homepage
+![Lighthouse result for desktop homepage](./assets/images/home-lighthouse-desktop.webp)
+### Gallery Page
+![Lighthouse result for desktop gallery page](./assets/images/gallery-lighthouse-desktop.webp)
+### About Page
+![Lighthouse result for desktop about page](./assets/images/about-lighthouse-desktop.webp)
+### Contact Page
+![Lighthouse result for desktop contact page](./assets/images/contact-lighthouse-desktop.webp)
+
+
+
 
 ### Testing User Stories from User Experience (UX) Section
 #
