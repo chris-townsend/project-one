@@ -145,10 +145,10 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 
 5. The social media icons that have been fixed to the bottom of the screen have been made **interative** by using the *hover*: *transform* function. I have used a background colour and box shadow for when an icon is hovered over. Each icon has been assigned its own personal color by using [Social Colours](https://materialui.co/socialcolors/).
-![Facebook Icon](./assets/images/facebook.webp)
-![Instagram Icon](./assets/images/instagram.webp)
-![Twittter Icon](./assets/images/twitter.webp)
-![GitHub Icon](./assets/images/github.webp)
+![Facebook icon](./assets/images/facebook.webp)
+![Instagram icon](./assets/images/instagram.webp)
+![Twittter icon](./assets/images/twitter.webp)
+![GitHub icon](./assets/images/github.webp)
 
 
 6. The headings for the gallery, about and contact page have been made **interactive**. Similar to the main heading, I have used the *image-grow* *keyframes* function. 
@@ -167,6 +167,10 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 - *the contact form is **not currently active** as it requires languages I have yet to learn. The form is there to demonstrate the html structure and CSS style*
 
+9. At the bottom of all pages within my footer I have added a copyright symbol with the organization and who it was created by. It contains information to improve the websites overall usability. 
+
+![copyright-info](./assets/images/copyright-info.webp)
+
 ***
 ## Future Features
 #
@@ -184,7 +188,7 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
+### Programs, Frameworks & Libraries Used
 #
 
 - [Balsamiq:](https://balsamiq.com/) - Balsamiq was used to create the wireframes during the design process.
@@ -315,7 +319,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh and will take a short time to publish the page. The page should turn green once the site has been deployed.
 ![Refresh](./assets/images/ready-to-publish.webp)
 
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the published site [link](https://github.com) in the "GitHub Pages" section.
 ![Published URL](./assets/images/your-site-is-published.webp)
 
 ### Forking the GitHub Repository
@@ -323,7 +327,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 By forking the GitHub Repository you can make a copy of the original repository You can view and/or make changes without affecting the original repository by using the following steps..
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/) you would like to fork.
 
 ![GitHub Repository](./assets/images/my-repository.webp)
 
@@ -353,13 +357,7 @@ By forking the GitHub Repository you can make a copy of the original repository 
 7. Press Enter. Your local clone will be created.
 
 ## Credits
-***
-
-### Code
-#
-
-
-
+***  
 ### Content
 #
 
