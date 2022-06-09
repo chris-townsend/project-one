@@ -60,7 +60,7 @@ In this project I intend to provide a portfolio style website to showcase some o
 #
 -   #### Colour Scheme
     
-     -   The two main colours used are Eerie Black, Smokey Black and White with the homepage and contact page containing a hero image.
+     -   The main colours used are Eerie Black, Smokey Black and White with the homepage and contact page containing a hero image.
      - The About page has a background colour of Pale Silver which I think works well with the image.
      - I used Alice Blue for the background colour of the form on my contact page.
 
@@ -163,7 +163,7 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 7. I wanted to make my gallery images stand out by adding **animation**. I accomplished this by using the *hover* and *transition* function. When you *hover* over an image it eases in over 0.4 seconds and when you unselect, it goes back to its original state. I used the *transition* ease-in-out for this method.
 ![gallery-page](./assets/images/gallery-page.webp)
 
-8. My contact page has been made **interative** so that when you input your details into the form, the headings get pushed out of the box and stay above the input boxes. This was accomplished by using the *hover* and *transition* function. I have added extra style to the submit button by adding in an arrow when you *hover* over it. The form will come up with a "Please fill out this feild" message when it hasn't been filled in correctly. This means that an email address is *required* before the form can be submitted. 
+8. My contact page has been made **interative** so that when you input your details into the form, the headings get pushed out of the box and stay above the input boxes. This was accomplished by using the *hover* and *transition* function. I have added extra style to the submit button by adding in an arrow when you *hover* over it. The form will come up with a "Please fill out this feild" message when it hasn't been filled in correctly. This means that a name and email address is *required* before the form can be submitted. 
 
 ![form-interative](./assets/images/form-interative.webp)
 ![form-please-fill-out](./assets/images/please-fill-contact.webp)
@@ -182,7 +182,7 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 - A blog page to the site - This would mean revamping the site and adding another page and heading to the nav bar, this gives another reason to attract more users to the site. 
 
-- More gallery pages - If I had more time I would like to of added individual gallery pages for peaks, coast and trees instead of directing you to the same gallery page.
+- More gallery pages - I would like to add individual gallery pages for peaks, coast and trees instead of directing you to the same gallery page.
 
 - An e-commerce shop section where landscape prints can be bought.
 
