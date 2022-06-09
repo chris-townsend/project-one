@@ -12,7 +12,7 @@
 
 ## Objective
 #
-In this project I intend to provide a portfolio style website to showcase some of the best Landscape photography prints. The main objective is to demonstrate competency in HTML and CSS. I hope to provide an emotive, static front end application which is clearly laid out and easy to navigate. 
+In this project I intend to provide a portfolio style website to showcase some of the best Landscape photography prints. It will also contain a styled form on a contact page. The main objective is to demonstrate competency in HTML and CSS. I hope to provide an emotive, static front end application which is clearly laid out and easy to navigate. 
 
 **The needs within this project are not genuine and is made only for the purpose of completing my Code Institute PP1 project**
 
@@ -21,10 +21,10 @@ In this project I intend to provide a portfolio style website to showcase some o
 ## Brief
 #
 - The goal of the website is to showcase Chris's landscape photography prints with the potential for users to contact the publisher if neccesary by using the contact form provided
-- The website will have an about page which contains infomation about the author and also a team section
-- Display a small gallery
-- Links to wiki pages to show information on how the website was created by using HTML, CSS & GitHub 
-- Fixed social media links at the bottom of the screen to attract returning viewers
+- The website will have an about page which will contain infomation about the author and also a team section with information about employees.
+- It will display a small gallery
+- Links to wiki pages to show information on how the website was created, using HTML, CSS & GitHub 
+- Fixed social media links at the bottom of the screen
 
 
 ![Am I responsive](./assets/images/am-i-responsive.webp)
@@ -39,26 +39,30 @@ In this project I intend to provide a portfolio style website to showcase some o
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and understand what it's about.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content easily.
+        3. As a First Time Visitor, I want to easily be able to locate their social media links to see their followings to determine how trusted and known they are.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have by using the contact page.
-        2. As a Returning Visitor, I want to find social links.
+        1. As a Returning Visitor, I want to find the best way to get in contact with the organisation.
+
+        2. As a Returning Visitor, I want to find the location of where the organization is.
 
     -   #### Frequent User Goals
 
-        1. As a Frequent User, I want to check to see if there has been any new images uploaded.
-       
-    ***
+        1. As a Frequent User, I want to check to see if there has been any new photos recently added.
+        2. As a Frequent User, I want to get hold of the organization.
+    
+       ***
 
 -   ### Design
 #
 -   #### Colour Scheme
     
-     -   The two main colours used are Black and white with the homepage and contact page containing a hero image.
+     -   The two main colours used are Eerie Black, Smokey Black and White with the homepage and contact page containing a hero image.
+     - The About page has a background colour of Pale Silver which I think works well with the image.
+     - I used Alice Blue for the background colour of the form on my contact page.
 
 
 
@@ -118,8 +122,6 @@ In this project I intend to provide a portfolio style website to showcase some o
 
 ## Features
 #
--   Responsive on most device sizes
-
 The design is made with mobile first in mind, the media queries in the CSS file are done in a way to keep the structure and responsiveness in place as the screen size decreases. 
 
 I have used [Responsinator](http://www.responsinator.com/) to check the responsiveness on different devices. The site is responsive on all devices available inluding ios devices. I have also added extra media queries for screen sizes 360px wide. 
@@ -136,7 +138,7 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
     ![nav-bar](./assets/images/nav-bar.webp)
 
-3. The quote box below the hero image on the homepage has added **animation**, it grows from a scale of 0.2 to 1 over 8 seconds. I made the **animation** to grow over 8 seconds so that it gives readers a chance to scroll down the page before the **animation** is over. 
+3. The quote box below the hero image on the homepage has added **animation**, it grows from a scale of 0.2 to 1 over 8 seconds. I made the **animation** to grow over 8 seconds so that it allows more time to see the **animation** before the reader scrolls down the page.
 ![quote-small](./assets/images/quote-small.webp)
 ![quote-big](./assets/images/quote-big.webp)
 
@@ -271,18 +273,18 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a quote from a famous landscape artist and gallery cards which will take you straight to the gallery page.
+        2. The main points are made immediately with the hero image and the title.
+        3. The user has two options, click one of the call to action buttons or scroll down.
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what page they will end up on clearly.
         2. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        2. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    3. As a First Time Visitor, I want to easily be able to locate their social media links to see their followings to determine how trusted and known they are.
+        1. The user will see the social media icons as soon as they open the site as they are fixed to the bottom of the screen. They are also interative when hovered over.
+      
 
 -   #### Returning Visitor Goals
 
@@ -293,23 +295,22 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
         2. Here they can fill out the form on the page or alternatively they can message the organisation on social media.
         3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's Github.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
 
-    2. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page Icon is fixed to the bottom of the screen on every page and will open a new tab for the user and more information can be found on the Facebook page.
+     2. As a Returning Visitor, I want to see where the location is based.
+         1. A contact map is easily accessable by clicking on the contact header on the navigation bar and scrolling to just below the contact form.
+        
+       
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added images 
+    1. As a Frequent User, I want to check to see if there has been any new photos recently added.
 
-        1. The user would already be comfortable with the website layout and can easily click the gallery page.
+        1. The user would already be comfortable with the website layout and can easily locate the gallery page.
 
-        2. As a Frequent User, I want to check where the location is.
+    2. As a Frequent User, I want to get hold of the organization.
 
-        3. The user would already be comfortable with the website layout and can easily click the contact link from the homepage and at the bottom of the page is a google map.
+        1. The user would already be comfortable with the website layout and can easily click the contact link from the homepage and at the bottom of the page is a google map.
 
-    2. As a Frequent User, I want to get hold of the organization by using there contact form on the contact page. 
-        1. At the top of every page their is a nav bar which content is consistent throughout all pages.
         2. There is a "Submit" button to the bottom of the input field. This is located close to the field and can easily be distinguished. When you hover over the button some arrows appear to acknowedge you are about to submit the form.
 
 ### Further Testing
