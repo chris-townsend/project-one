@@ -77,11 +77,19 @@ In this project I intend to provide a portfolio style website to showcase some o
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe -
+    ![Homepage Wireframe](./assets/images/homepage-wireframe.webp)
 
     -   Mobile Wireframe - [View](https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    - Gallery Page Wireframe - 
+    ![title-grow](./assets/images/gallery-wireframe.webp)
+
+    - About Us Page Wireframe - 
+    ![About Page Wireframe](./assets/images/about-wireframe.webp)
+
+    -   Contact Us Page Wireframe -
+    ![Contact Page Wireframe](./assets/images/contact-wireframe.webp)
 
 ***    
 
