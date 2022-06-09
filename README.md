@@ -241,6 +241,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 I have run the entire website through Google Chrome's lighthouse audit application and the results are shown below:
 
+- Mobile
+### Homepage
+![Lighthouse result for mobile homepage]()
+### Gallery Page
+![Lighthouse result for mobile gallery page](./assets/images/gallery-lighthouse-mobile.webp)
+### About Page
+![Lighthouse result for mobile about page](./assets/images/about-lighthouse-mobile.webp)
+### Contact Page
+![Lighthouse result for mobile contact page](./assets/images/contact-lighthouse-mobile.webp)
+
 - Desktop
 ### Homepage
 ![Lighthouse result for desktop homepage](./assets/images/home-lighthouse-desktop.webp)
