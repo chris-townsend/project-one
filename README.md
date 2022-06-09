@@ -84,6 +84,8 @@ In this project I intend to provide a portfolio style website to showcase some o
     -   #### Imagery
     #
     -   Imagery is important through out the website, especially on the homepage and gallery page. The large, background hero image is designed to be striking and catch the user's attention when they first vist the site. It has a modern and bright aesthetic. All of the images have been compressed using *[Compressor.io](https://compressor.io/)* to reduce size and load times.
+
+    ![Homepage](./assets/images/home-page.webp)
     
     ***
 
