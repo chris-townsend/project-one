@@ -184,6 +184,8 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 - More gallery pages - I would like to add individual gallery pages for peaks, coast and trees instead of directing you to the same gallery page.
 
+- Add a reset button to my contact form to make it more user friendly. 
+
 - An e-commerce shop section where landscape prints can be bought.
 
 ### Languages Used
@@ -216,6 +218,10 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 - [GitHub:](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
 
 - [W3C Markup Validator:](https://validator.w3.org/) - This site was used to ensure that my HTML and CSS was error free. I had to push my code to ensure it was updated and then add the URL of the website to the address bar which then checked for errors or warnings.
+
+ - [Slack:] (https://slack.com/intl/en-gb/) - Slack is a an online messaging service which allows poeple to collaberate with their workspaces. Slack was incredibly useful for advice from students and tutors.
+
+ - [YouTube:] (https://www.youtube.com/) - YouTube is a free video sharing website, it has been very useful for watching videos on positioning using flexbox. 
 
 
 ## Testing
@@ -315,17 +321,22 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 ### Further Testing
 #
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhoneX & Samsung Galaxy S21
+-   The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhoneX & Samsung Galaxy S21.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 #
 
--   On some small mobile devices the contact map pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right and above the map.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On some small mobile devices the contact map pushes the size of the screen out more than any of the other content on the page.
+    -   A white gap can be seen to the right and above the map. To fix this problem I have reduced the width size of the map as screen size decreases to make it more responsive. On some very small devices, there may still be a small gap but works on majority of devices.
+
+- When testing my code through the W3C validator for the first time, it came up with a lower score for accessability. This was due to not adding having a title attached to my iframe google map, this has now been added.
+
+- I originally had the colour Grey for my writing on my about page. This lowered my accessability score so I changed it back to black to compensate for accessability.
+
+- When testing my site through [Responsinator](http://www.responsinator.com/) The site would occassionally display my nav bar differently at 412px and 414px. When I refresh the page a couple of times it will show it correctly, I'm not quite sure what is causing this and am still unsure now. I have tested the responsiveness using Google DevTools and it is showing up correctly on there at 412px and 414px.  
 
 ## Deployment
 ***
@@ -391,21 +402,21 @@ By forking the GitHub Repository you can make a copy of the original repository 
 ***  
 ### Content
 #
+- The LoveRunning Project from Code Institute was very helpful and gave me inspiration for my own website, espeically creating the navbar.
 
--   All content was written by the developer.
+- Various videos across Youtube about positioning using flexbox.
 
 ### Media
-#
 
 The Images used across my website have been taken from : 
 
 -  [Unsplash](https://unsplash.com/)
 
-- [Pexels](https://www.pexels.com/)
+-  [Pexels](https://www.pexels.com/)
 
 ### Acknowledgements
 #
 
--   My Mentor for continuous helpful feedback.
+-  I would like to thank my Mentor Darío Carrasquel for guidance throughout the project.
 
 -   Tutor support at Code Institute for their support.
