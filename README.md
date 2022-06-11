@@ -247,7 +247,7 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 
 - Mobile
 ### Homepage
-![Lighthouse result for mobile homepage]()
+![Lighthouse result for mobile homepage](./assets/images/home-lighthouse-mobile.webp)
 ### Gallery Page
 ![Lighthouse result for mobile gallery page](./assets/images/gallery-lighthouse-mobile.webp)
 ### About Page
