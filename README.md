@@ -345,7 +345,7 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 
         1. The user would already be comfortable with the website layout and can easily click the contact link from the homepage and at the bottom of the page is a google map.
 
-        2. On the contact page there is a form which they can fill out, there is a "Submit" button to the bottom of the input field. This is located close to the field and can easily be distinguished. When you hover over the button some arrows appear to acknowedge you are about to submit the form.
+        2. On the contact page there is a form which they can fill out, there is a "Submit" button to the bottom of the input field. The submit button is interative when you hover over it, some arrows will appear to acknowedge you are about to submit the form.
 
 ### Further Testing
 #
