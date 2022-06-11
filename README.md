@@ -353,7 +353,7 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 -   The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhoneX & Samsung Galaxy S21.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Friends and family members were asked to review the site and point out any bugs or problems.
 
 ### Known Bugs
 #
@@ -361,7 +361,7 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 -   On some small mobile devices the contact map pushes the size of the screen out more than any of the other content on the page.
     -   A white gap can be seen to the right and above the map. To fix this problem I have reduced the width size of the map as screen size decreases to make it more responsive. On some very small devices, there may still be a small gap but works on majority of devices.
 
-- When testing my code through the W3C validator for the first time, it came up with a lower score for accessability. This was due to not adding having a title attached to my iframe google map, this has now been added.
+- When testing my code through the W3C validator, it came up with a lower score for accessability. This was due to not adding a title to my iframe google map, this has now been added and increased the score for accessability.
 
 - I originally had the colour Grey for my writing on my about page. This lowered my accessability score so I changed it back to black to compensate for accessability.
 
