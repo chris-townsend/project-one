@@ -8,6 +8,35 @@
 ## Repository
 [https://github.com/chris-townsend/project-one](https://github.com/chris-townsend/project-one)
 
+![Am I responsive](./assets/images/am-i-responsive.webp)
+***
+
+## Contents
+- [Objective](#Objective)
+- [Brief](#Brief)
+- [User Experience](#User-Experience)
+- [Design](#Design)
+    - [Colour Scheme](#Colour-Scheme)
+    - [Typography](#Typography)
+    - [Imagery](#Imagery)
+- [Wireframes](#Wireframes)
+- [Features](#Features)
+    - [Features Left to Implement](#Future-Features)
+    - [Languages Used](#languages-Used)
+- [Technologies Used](#programs-frameworks--libraries-used)
+- [Testing](#Testing)
+    - [Testing Stories for UX](#testing-user-stories-from-user-experience-ux-section)
+    - [Further Testing](#Further-Testing)
+- [Bugs](#Known-Bugs)
+- [Deployment](#Deployment)
+    - [GitHub Pages](#GitHub-Pages)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
+    - [Making a local Clone](#making-a-local-clone)
+- [Credits](#Credits)
+    - [Content](#Content)
+    - [Media](#Media)
+    - [Acknowledgements](#Acknowledgements)
+
 ***
 
 ## Objective
@@ -27,7 +56,7 @@ In this project I intend to provide a portfolio style website to showcase some o
 - Fixed social media links at the bottom of the screen
 
 
-![Am I responsive](./assets/images/am-i-responsive.webp)
+
 
 ***
 
