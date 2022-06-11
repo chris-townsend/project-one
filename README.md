@@ -14,7 +14,7 @@
 ## Contents
 - [Objective](#Objective)
 - [Brief](#Brief)
-- [User Experience (UX)](#User-Experience(UX))
+- [User Experience(UX)](#user-experience-ux)
 - [Design](#Design)
     - [Colour Scheme](#Colour-Scheme)
     - [Typography](#Typography)
