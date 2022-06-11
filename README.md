@@ -226,31 +226,31 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 ### Programs, Frameworks & Libraries Used
 #
 
-- [Balsamiq:](https://balsamiq.com/) - Balsamiq was used to create the wireframes during the design process.
+- [Balsamiq:](https://balsamiq.com/) Balsamiq was used to create the wireframes during the design process.
 
-- [Pixlr:](https://pixlr.com/x/) - Pixlr was used to resize and change the format of my images.
+- [Pixlr:](https://pixlr.com/x/) Pixlr was used to resize and change the format of my images.
 
-- [Coolors:](https://coolors.co/) - Coolors was used to pick a colour scheme and check contrast. 
+- [Coolors:](https://coolors.co/) Coolors was used to pick a colour scheme and check contrast. 
 
-- [TinyPNG:](https://tinypng.com/) - All images within the project have been processed through their free compression tool.
+- [TinyPNG:](https://tinypng.com/) All images within the project have been processed through their free compression tool.
 
-- [Hover.css:](https://ianlunn.github.io/Hover/) - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+- [Hover.css:](https://ianlunn.github.io/Hover/) Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 
-- [Google Fonts:](https://fonts.google.com/) - Google fonts were used to import the 'Raleway' and 'Caveat' font into the style.css file which is used on all pages throughout the project.
+- [Google Fonts:](https://fonts.google.com/) Google fonts were used to import the 'Raleway' and 'Caveat' font into the style.css file which is used on all pages throughout the project.
 
-- [Font Awesome:](https://fontawesome.com/) - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+- [Font Awesome:](https://fontawesome.com/) Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 
-- [Google DevTools:](https://developer.chrome.com/docs/devtools/) - Once the website was made to a basic deployment level, Google DevTools was used frequently to resize objects within the site, very helpful for making my website responsive.
+- [Google DevTools:](https://developer.chrome.com/docs/devtools/) Once the website was made to a basic deployment level, Google DevTools was used frequently to resize objects within the site, very helpful for making my website responsive.
 
-- [Git](https://git-scm.com/) - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-- [GitHub:](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
+- [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
 
-- [W3C Markup Validator:](https://validator.w3.org/) - This site was used to ensure that my HTML and CSS was error free. I had to push my code to ensure it was updated and then add the URL of the website to the address bar which then checked for errors or warnings.
+- [W3C Markup Validator:](https://validator.w3.org/) This site was used to ensure that my HTML and CSS was error free. I had to push my code to ensure it was updated and then add the URL of the website to the address bar which then checked for errors or warnings.
 
- - [Slack:] (https://slack.com/intl/en-gb/) - Slack is a an online messaging service which allows poeple to collaberate with their workspaces. Slack was incredibly useful for advice from students and tutors.
+ - [Slack:](https://slack.com/intl/en-gb/) Slack is a an online messaging service which allows poeple to collaberate with their workspaces. Slack was incredibly useful for advice from students and tutors.
 
- - [YouTube:] (https://www.youtube.com/) - YouTube is a free video sharing website, it has been very useful for watching videos on positioning using flexbox. 
+ - [YouTube:](https://www.youtube.com/) YouTube is a free video sharing website, it has been very useful for watching videos on positioning using flexbox. 
 
 
 ## Testing
