@@ -881,6 +881,16 @@ a, i {
     }
 }
 
+  /*homepage responsiveness*/
+
+  @media screen and (max-width: 667px) {
+
+    .footer-bottom {
+        position: relative;
+        margin-bottom: -360px;
+    }
+  }
+
 /*for small screen sizes from 576px wide*/
 
 /*homepage responsiveness*/
