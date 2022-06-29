@@ -381,9 +381,9 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 ![footer-bottom-bug](./assets/images/footer-bottom-bug.webp)
 
 
-
-## Deployment
 ***
+## Deployment
+
 
 ### GitHub Pages
 #
