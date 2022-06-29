@@ -50,7 +50,7 @@ In this project I intend to provide a portfolio style website to showcase some o
 ## Brief
 #
 - The goal of the website is to showcase Chris's landscape photography prints with the potential for users to contact the publisher if neccesary by using the contact form provided
-- The website will have an about page which will contain infomation about the author and also a team section with information about employees.
+- The website will have an about page which will contain infomation about the author and also a team section with information about employees
 - It will display a small gallery
 - Links to wiki pages to show information on how the website was created, using HTML, CSS & GitHub 
 - Fixed social media links at the bottom of the screen
@@ -69,7 +69,9 @@ In this project I intend to provide a portfolio style website to showcase some o
     -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and understand what it's about.
+
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content easily.
+
         3. As a First Time Visitor, I want to easily be able to locate their social media links to see their followings to determine how trusted and known they are.
 
     -   #### Returning Visitor Goals
@@ -81,6 +83,7 @@ In this project I intend to provide a portfolio style website to showcase some o
     -   #### Frequent User Goals
 
         1. As a Frequent User, I want to check to see if there has been any new photos recently added.
+
         2. As a Frequent User, I want to get hold of the organization.
     
        ***
@@ -155,7 +158,7 @@ In this project I intend to provide a portfolio style website to showcase some o
 #
 The design is made with mobile first in mind, the media queries in the CSS file are done in a way to keep the structure and responsiveness in place as the screen size decreases. 
 
-I have used [Responsinator](http://www.responsinator.com/) to check the responsiveness on different devices. The site is responsive on all devices available inluding ios devices. I have also added extra media queries for screen sizes 360px wide. 
+I have used [Responsinator](http://www.responsinator.com/) to check the responsiveness on different devices. The site is responsive on the majority of devices, including ios devices. See known bugs section for problems with the bottom footer on selected devices when viewed landscape.
 
  - [Responsinator Results](http://www.responsinator.com/?url=chris-townsend.github.io%2Fproject-one%2Findex.html)
 #
@@ -371,7 +374,13 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 
 - I originally had the colour Grey for my writing on my about page. This lowered my accessability score so I changed it back to black to compensate for accessability.
 
-- When testing my site through [Responsinator](http://www.responsinator.com/) The site would occassionally display my nav bar differently at 412px and 414px. When I refresh the page a couple of times it will show it correctly, I'm not quite sure what is causing this and am still unsure now. I have tested the responsiveness using Google DevTools and it is showing up correctly on there at 412px and 414px.  
+- When testing my site through [Responsinator](http://www.responsinator.com/) The site would occassionally display my nav bar differently at 412px and 414px. When I refresh the page a couple of times it will show it correctly, I'm not quite sure what is causing this and still unsure now. I have tested the responsiveness using Google DevTools and it is showing up correctly on there at 412px and 414px.  
+
+- I have noticed that my bottom footer at 684px and 667px wide (Android Pixel 2 landscape view & Apple Iphone 6-8 landscape view) is showing up incorrectly. It is showing further up the page near the bottom of the second gallery card instead of sitting at the bottom of the page. I have tried to resolve this issue by adding a media query but it puts bad UX on other devices so I have left this unresolved for now as it only seems to be a small problem when viewed landscape.
+
+![footer-bottom-bug](./assets/images/footer-bottom-bug.webp)
+
+
 
 ## Deployment
 ***
