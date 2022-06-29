@@ -446,7 +446,7 @@ By forking the GitHub Repository you can make a copy of the original repository 
 ***  
 ### Content
 #
-- The LoveRunning Project from Code Institute was very helpful and gave me inspiration for my own website, espeically creating the navbar.
+- The LoveRunning project from Code Institute was very helpful and gave me inspiration for my own website, espeically for creating the navbar.
 
 - Various videos across Youtube about positioning using flexbox.
 
