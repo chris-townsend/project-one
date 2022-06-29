@@ -198,16 +198,22 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 ![form-please-fill-out](./assets/images/please-fill-contact.webp)
 ![button-arrow](./assets/images/button-arrow.webp)
 
-- *the contact form is **not currently active** as it requires languages I have yet to learn. The form is there to demonstrate the html structure and CSS style*
+- *The contact form is **not currently active** as it requires languages I have yet to learn. The form is there to demonstrate the html structure and CSS style*. The 'action' and 'method' attributes have been updated to show the Code Institute form dump page when the form has been filled in correctly, this will open in a new tab. The data inputted won't be collected or stored anywhere at this current time. 
+
+![form-action](./assets/images/form-action-method.webp)
 
 9. At the bottom of all pages within my footer I have added a copyright symbol with the organization and who it was created by. It contains information to improve the websites overall usability. 
 
 ![copyright-info](./assets/images/copyright-info.webp)
 
+10. I wanted to add more structure to my about page so I have added a team's section. At first it was difficult to position the employee heads within the background div but with perseverance and guidance from the Code Institute Love running project, this was accomplished.
+
+![team-section](./assets/images/team-section.webp)
+
 ***
 ## Future Features
 #
-- Make the form active on the contact page - The form on the contact page currently does not send any information. The main purpose of my first project is to use CSS and HTML so I have not yet learned about creating the necessary scripting behind the form. The 'action' and 'method' attributes have been removed to prevent any issue with errors.
+- Make the form active on the contact page - The form on the contact page currently does not send any information. The main purpose of my first project is to use CSS and HTML so I have not yet learned about creating the necessary scripting behind the form.
 
 - A blog page to the site - This would mean revamping the site and adding another page and heading to the nav bar, this gives another reason to attract more users to the site. 
 
@@ -436,8 +442,8 @@ By forking the GitHub Repository you can make a copy of the original repository 
 - Various videos across Youtube about positioning using flexbox.
 
 ### Media
-
-The Images used across my website have been taken from : 
+#
+The Images used across my website have been taken from: 
 
 -  [Unsplash](https://unsplash.com/)
 
@@ -445,7 +451,6 @@ The Images used across my website have been taken from :
 
 ### Acknowledgements
 #
-
 -  I would like to thank my Mentor Darío Carrasquel for guidance throughout the project.
 
 -   Tutor support at Code Institute for their support.
