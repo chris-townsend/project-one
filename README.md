@@ -442,8 +442,9 @@ By forking the GitHub Repository you can make a copy of the original repository 
 
 7. Press Enter. Your local clone will be created.
 
+***
 ## Credits
-***  
+
 ### Content
 #
 - The LoveRunning project from Code Institute was very helpful and gave me inspiration for my own website, espeically for creating the navbar.
